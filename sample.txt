@@ -1,0 +1,334 @@
+Ministry of Higher Education and Scientific Research
+Final Exam - Fourth Stage - Foundations 2
+Date: 12/5/2024     Time: 120 minutes
+Note: Correct answers are highlighted in green
+1- The end bearing is fully mobilized when the pile settlement is equal to:
+a- 10-15% of pile diameter
+b- 10-25% of pile diameter
+c- 10-25 mm
+d- 10-15 mm
+e- 15-20% of pile diameter
+2- The principle of critical embedded depth of piles exists for the case of:
+a- Piles embedded in clay
+b- piles embedded in sand
+c- piles embedded in undrained soil
+d- piles embedded in collapsible soil
+e- Piles embedded in loess
+3- The minimum center to center spacing between the pile is equal to:
+a- 1.5 of the pile diameter
+b- 2.5-3.5 of the pile diameter
+c- 2.5-5.0 of the pile diameter
+d- 5.0 of the pile diameter
+e- 20 of the pile diameter
+4- The negative skin friction on a pile develops when:
+a- the soil in which it is driven is sandy soil
+b- the soil surrounding it settles more than the pile
+c- the ground water table rises
+d- the soil near the tip is clay
+e- all the above
+5- The Rankine passive earth pressure coefficient for a soil with Ø = 0 is:
+a- zero
+b- 1
+c- -1
+d- 2
+e- -2
+6- Cased cast-in-situ piles are suitable for ______ conditions:
+a- Seasonal change
+b- Dry condition
+c- All ground conditions
+d- high water table conditions
+e- All of the above
+7- The factor of safety in piles generally used ranges from:
+a- 1 to 2
+b- 2 to 3
+c- 3 to 4
+d- 5 to 6
+e- No one of above
+8- Uplift resistance of straight tension piles depends on:
+a- bearing and weight of pile
+b- skin and bearing
+c- weight of pile only
+d- skin and weight of pile
+e- bearing and weight of pile
+9- The type of foundations used to carry the loads of tall buildings, earth-retaining structures, transmission towers, and chimneys:
+a- Strip foundations
+b- Continuous foundations
+c- Spread foundations
+d- Pile foundations
+e- All of above
+10- The pile foundations are recommended when ---------:
+a- The soil conditions near the surface are poor
+b- The expansive soils are present
+c- The superstructures support lateral load
+d- The foundations are subjected to uplift force
+e- All of the above
+11- Which type of retaining wall depends on its own weight and any soil resting on the masonry for stability?
+a- Counterfort retaining walls
+b- Cantilever retaining walls
+c- Semi gravity retaining walls
+d- Gravity retaining walls
+e- Piled retaining walls
+12- The piles or piers supporting the tower legs must be designed for:
+a- compressive forces
+b- tension forces
+c- compressive and tension forces
+d- shear forces
+e- none of the mentioned
+13- Note that the top of the stem of any retaining wall should not be less than about:
+a- 0.1 m
+b- 0.2 m
+c- 0.3 m
+d- 0.4 m
+e- 0.5 m
+14- Cast-in-place piles (or bored piles) literally cause no displacement and are known as:
+a- Displacement piles
+b- Non displacement piles
+c- Compaction piles
+d- Both a and b
+e- not above
+15- What minimum butt diameter is specified for Class C timber piles used permanently under the water table?
+a- 150 mm
+b- 330 mm
+c- 200 mm
+d- 356 mm
+e- 305 mm
+16- What is the recommended minimum center-to-center pile spacing shown in practice?
+a- Equivalent to the depth of the deposit bearing the structural load
+b- 3 to 3.5 times D, with D being the diameter of the piles
+c- 5 to 6 times D, considering the prevention of buckling concerns
+d- 8D to account for potential seismic shifts in the underlying soil
+e- At least twice the height of the longest pile used
+17- What is a common use for wooden sheet piles?
+a- Permanent marine structures
+b- Retaining walls for underwater basements
+c- Load-bearing walls for dock facilities
+d- Temporary, light structures above the water table
+e- Foundation for high-rise buildings
+18- A 500 mm diameter pile having a length of 18 m in a clay where γ= 20.0 kN/m3 and cu = 60 kN/m2. The point loading of pile is ____:
+a- 190 kN
+b- 140 kN
+c- 106 kN
+d- 90 kN
+e- 80 kN
+19- A 12 m long concrete pile with 300 mm diameter is driven in sand (φ = 35°). The unit weight of sand is 18 kN/m3. Calculate the ultimate point Qp using Meyerhof's method. Consider Nq = 143:
+a- 354 kN
+b- 2061 kN
+c- 4000 kN
+d- 2624 kN
+e- 510 kN
+20- Compared to dry backfill, submerged backfill will exert ---------:
+a- same earth pressure
+b- less earth pressure
+c- more earth pressure
+d- difficult to tell
+e- None of the above
+21- If the backfill has a uniform surcharge of intensity q per unit area, the lateral pressure everywhere will increase by a quantity of ----------:
+a- intensity of q
+b- γ·q
+c- Ka·q
+d- γ·H
+e- None of the above
+22- Vesic 1969, stated an equation for the elastic settlement in a group piles, Sg(e) as:
+a- √(Bg/D)
+b- √(Bg/D) Se
+c- √(D/Bg) Se
+d- √(Se/Bg) Se
+e- 1.5 √(Bg/D)
+23- ............retaining walls are made of reinforced concrete that consists of a thin stem and a base slab:
+a- Gravity
+b- Semigravity
+c- Cantilever
+d- Counterfort
+e- None of the mentioned
+24- Generally, when the pile is driven into a............., the load applied on the pile head is transferred to the soil through the pile tip (or point) and the pile shaft:
+a- Concrete mix
+b- Thick deposit of soil
+c- A wide river
+d- Ground water elevation
+e- Saturated soil layer
+25- Consider a 500 mm diameter pile having a length of 18 m in a clay. Given: γ= 20.0 kN/m3 and cu =60 kN/m2. Use the α method to Determine the maximum allowable load (Qall) with FS = 3, α=0.62:
+a- 386 kN
+b- 396 kN
+c- 406 kN
+d- 416 kN
+e- 426 kN
+26- At similar depths, the unit skin friction depends on:
+a- Relative density of sand
+b- Method of installation
+c- Lateral displacement
+d- All of these
+e- None of these
+27- The area of the pile group along the failure surface is equal to:
+a- Perimeter × Area of cross section
+b- Breadth × Length
+c- Perimeter × Length
+d- Perimeter / Length
+e- Perimeter/area of cross section
+28- The settlement of a group of friction piles can be computed on the assumption that ................:
+a- Clay is incompressible
+b- Pile below the lower level is ignored
+c- Bearing resistance is zero
+d- All of the mentioned
+e- None of the mentioned
+29- -------piles are made by nailing three planks together, with the middle plank offset by 50 to 75 mm:
+a- Wooden planks
+b- Wakefield piles
+c- Tongue-and-groove piles
+d- Metal splined piles
+e- Precast concrete sheet piles
+30- A clay element subjected to one-dimensional consolidation does not undergo any lateral strains and hence is in:
+a- At-rest earth pressure
+b- Active earth pressure
+c- Passive earth pressure
+d- Either active earth pressure or passive earth pressure
+e- it's depend
+31- The action of negative skin friction on the pile is to:
+a- Increase the ultimate load on the pile
+b- Reduce the allowable load on the pile
+c- Maintain the working load on the pile
+d- Reduce the settlement of the pile
+e- None of the above
+32- In a homogeneous soil mass where the ground level is horizontal, the ratio of the effective horizontal stress (σ'h) to the effective vertical stress (σ'v) at any point within the soil is a constant is known to be:
+a- at rest
+b- Active
+c- Passive
+d- All above
+e- Non
+33- Excessive settlement may be accurate when a weak soil layer is located at a shallow depth — that is, within a depth of:
+a- 3.5 times the width of the base slab of the retaining wall
+b- 2.5 times the width of the base slab of the retaining wall
+c- 1.5 times the width of the base slab of the retaining wall
+d- 2.1 times the width of the base slab of the retaining wall
+e- Not above
+34- For a smooth vertical wall, Rankine's and Coulomb's expressions for Ka give .......... (δ=0):
+a- A value dependent on the wall material properties
+b- A value influenced by the wall inclination
+c- A value dependent on soil cohesion
+d- Different values
+e- The same values
+35- It is important to realize that the active earth pressure condition will be reached only if the wall is allowed to yield sufficiently. The necessary amount of outward displacement of the wall is about ---- for granular soil backfills, where H is the height of the wall:
+a- 0.001H to 0.002H
+b- 0.001H to 0.003H
+c- 0.002H to 0.003H
+d- 0.003H to 0.004H
+e- 0.00003H to 0.0004H
+36- Sometimes, water jetting or preboring is used to assist penetration through --------:
+a- soft soil
+b- medium layer
+c- hard soil
+d- rock layer
+e- Silty soil
+37- What is the primary factor influencing elastic settlement of piles and pile groups?
+a- Soil type
+b- Pile material
+c- Pile diameter
+d- Load magnitude
+e- Pile spacing
+38- Cantilever sheet-pile walls are usually recommended for walls of moderate height about:
+a- 6 m
+b- 6 m or more
+c- 6 m or less
+d- 8 m
+e- 10 m
+39- If the backfill carries a uniform surcharge q, then the lateral pressure at the depth of wall H is:
+a- pa = Ka γz + Ka q
+b- pa = Ka γz - Ka q
+c- pa = Ka γz * Ka q
+d- pa = Ka γz / Ka q
+e- pa = Ka γz
+40- Steel piles are fitted with driving points or shoes to (select the INCORRECT statement):
+a- Increase the pile's surface area for better friction
+b- Prevent the pile from buckling under load
+c- Protect the pile tip and facilitate driving through hard soil layers
+d- Anchor the pile to bedrock for greater stability
+e- Increase the pile's load capacity without touching the ground
+41- Why is a deadman anchor used at the stem of a retaining wall? (Select the INCORRECT answer):
+a- To provide additional support and prevent overturning of the wall
+b- To reduce the cost of construction by minimizing material use
+c- To enhance the aesthetic appearance of the retaining wall
+d- To increase the wall's ability to resist water infiltration
+e- To improve the drainage behind the wall
+42- When a small amount of steel are used to minimize the size of a retaining wall, the walls referred as:
+a- Gravity retaining walls
+b- Cantilever retaining walls
+c- Semi gravity retaining walls
+d- Counterfort retaining walls
+e- None of the above is correct
+43- The ultimate load-carrying capacity of a pile represents:
+a- The load at which the pile reaches its working load
+b- The load at which the pile settles 1% of its diameter
+c- The maximum load applied during a pile load test
+d- The load at which the pile fails
+e- The load corresponding to the point where the load-settlement curve becomes vertical
+44- In terms of load transfer, which statement is true regarding point bearing piles?
+a- They rely solely on friction along the shaft
+b- They transfer loads primarily through skin friction and minimal point resistance
+c- They do not transfer any load to the soil at the tip
+d- The majority of the load is transferred through the tip of the pile to the underlying soil
+e- They are not suitable for weak soils
+45- Which type of pile transfers most of its load to a strong layer beneath weak soil?
+a- Friction piles
+b- Floating piles
+c- Point bearing piles
+d- Tension piles
+e- Timber piles
+46- What is a key benefit of using precast concrete sheet piles?
+a- Lightweight and easy to transport
+b- Require no maintenance
+c- Made from renewable resources
+d- Designed to withstand permanent stresses
+e- Limited to temporary use
+47- The direction of the resultant force Pa which act on a wall of inclined backfill is:
+a- inclined at an angle = 2 x angle of inclination
+b- inclined at an angle = 0.5 x angle of inclination
+c- inclined at an angle = 3 x angle of inclination
+d- inclined at the same angle of inclination
+e- inclined at an angle = 0.75 x angle of inclination
+48- The equation for the safety factor against sliding in a gravity retaining wall using Coulomb's active earth pressure theory:
+a- Factor of safety against sliding = horizontal driving capacity / horizontal resisting capacity
+b- Factor of safety against sliding = moment resisting capacity / moment driving capacity
+c- Factor of safety against sliding = vertical driving capacity / vertical resisting capacity
+d- Factor of safety against sliding = horizontal resisting capacity / horizontal driving capacity
+e- Factor of safety against sliding = vertical resisting capacity / vertical driving capacity
+49- What is the primary difference between Rankine and Coulomb's earth pressure theories?
+a- Coulomb's theory accounts for wall friction, while Rankine's does not
+b- Rankine's theory is only valid for cohesive soils
+c- Coulomb's theory assumes zero backfill slope
+d- Rankine's theory considers water pressure while Coulomb's does not
+e- Coulomb's theory applies only to cantilever walls
+50- The conservative estimate of the critical depth would be:
+a- greater than 15D
+b- less than 15D
+c- equal 15D
+d- all of the mentioned
+e- none of the mentioned
+51- Cantilever retaining walls are most economical up to a height of:
+a- 4 m
+b- 6 m
+c- 8 m
+d- 10 m
+e- 12 m
+52- Which of the following is a major advantage of sheet pile walls compared to gravity walls?
+a- They require less excavation
+b- They provide better drainage
+c- They do not experience lateral forces
+d- They are more aesthetically pleasing
+e- They have higher bearing capacity
+53- What is the primary purpose of using sheet piles in construction?
+a- To create decorative facades
+b- To build continuous walls for waterfront structures
+c- To support roofs in residential buildings
+d- To construct temporary bridges
+e- None of the above
+54- In the context of sheet-pile walls, what does the term 'dredge line' refer to?
+a- The top edge of the sheet pile
+b- The boundary between the sheet pile and the backfill
+c- The surface of soil on the water side
+d- The line indicating the maximum water level
+e- The bottom edge of sheet pile
+55- A minimum factor of safety against sliding of retaining wall not less than:
+a- 1
+b- 1.5
+c- 2
+d- 2.5
+e- 3
