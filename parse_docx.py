@@ -52,31 +52,36 @@ def parse_docx(file_path):
     return questions
 
 def main():
-    pdf_dir = r'e:\CivilEng\foundation_engineering\pdfs'
-    docx_files = glob.glob(os.path.join(pdf_dir, '*.docx'))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    pdf_dir = os.path.join(base_dir, 'pdfs')
+    
+    exam_configs = [
+        ('exam1', '*2024-04-25*.docx', '2024-04-25'),
+        ('exam2', '*may2024-05-12*.docx', '2024-05-12'),
+        ('exam3', '*27-5-2024*.docx', '27-5-2024'),
+        ('exam4', '*2024-06-30*.docx', '2024-06-30'),
+        ('exam5', '*2025-09-10*.docx', '2025-09-10'),
+        ('exam6', '*2026*.docx', 'دور اول 2026')
+    ]
     
     all_exams = {}
-    exam_names = ['exam1', 'exam2', 'exam3', 'exam4', 'exam5']
-    
-    for i, file_path in enumerate(docx_files):
-        filename = os.path.basename(file_path)
-        # Extract date from filename if possible
-        date_match = re.search(r'(\d{1,4}[-\.]\d{1,2}[-\.]\d{1,4})', filename)
-        src = date_match.group(1) if date_match else filename
-        
-        q_list = parse_docx(file_path)
-        
-        # Add src to all questions
-        for q in q_list:
-            q['src'] = src
+    for key, pattern, src in exam_configs:
+        matches = glob.glob(os.path.join(pdf_dir, pattern))
+        if not matches:
+            matches = glob.glob(os.path.join(base_dir, pattern))
+        if matches:
+            file_path = matches[0]
+            q_list = parse_docx(file_path)
+            for q in q_list:
+                q['src'] = src
+            all_exams[key] = q_list
+            print(f"Parsed {len(q_list)} questions for {key} from {os.path.basename(file_path)}")
+        else:
+            print(f"Warning: pattern {pattern} not found!")
             
-        exam_key = exam_names[i] if i < len(exam_names) else f'exam{i+1}'
-        all_exams[exam_key] = q_list
-        print(f"Parsed {len(q_list)} questions from {filename}")
-        
-    # Output to a JS file snippet
-    js_content = "const QUESTIONS = " + json.dumps(all_exams, ensure_ascii=False, indent=2) + ";"
-    with open(r'e:\CivilEng\foundation_engineering\questions_data.js', 'w', encoding='utf-8') as f:
+    js_content = "const QUESTIONS = " + json.dumps(all_exams, ensure_ascii=False, indent=2) + ";\n"
+    output_path = os.path.join(base_dir, 'questions_data.js')
+    with open(output_path, 'w', encoding='utf-8') as f:
         f.write(js_content)
     print("Successfully generated questions_data.js")
 

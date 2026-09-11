@@ -1,1329 +1,655 @@
 const QUESTIONS = {
   "exam1": [
     {
-      "q": "The dimensions of the proportioning retaining walls depends on:",
+      "q": "Which class of timber piles is carry heavy loads:",
       "opts": [
-        "Soil properties",
-        "Type of retaining wall",
-        "Theory used for lateral pressure calculations",
-        "Height of backfill",
-        "None of the above"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The minimum factor of safety for a retaining wall to avoid overturning is:",
-      "opts": [
-        "1.0",
-        "1.5",
-        "2.0",
-        "2.5",
-        "3.0"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "H piles is considered a:",
-      "opts": [
-        "No displacement piles",
-        "highly displacement pile",
-        "low displacement pile",
-        "cast in situ pile",
-        "none of the options is correct"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The overturning force of a retaining wall is:",
-      "opts": [
-        "Horizontal active force",
-        "Vertical active force",
-        "Passive force",
-        "Weight of the retaining wall",
-        "Weight of soil"
+        "Any class",
+        "Class C",
+        "Class A",
+        "Class B",
+        "Class D"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "The soil backfill directly above the base of a retaining wall causes:",
+      "q": "For driven piles in sand, the vibration caused during pile driving helps densify the soil around the pile. The zone of sand densification may be as much as:",
       "opts": [
-        "Overturning",
-        "Sliding",
-        "Bearing capacity failure",
-        "All of the above",
-        "None of the above"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Sheet piles are used to build a continuous wall to:",
-      "opts": [
-        "Highways",
-        "Waterfront structures",
-        "Towers",
-        "Multistory-buildings",
-        "Trusses"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "In cantilever sheet piles, a special care should be taken to:",
-      "opts": [
-        "Soil properties",
-        "Height of sheet pile",
-        "Fluctuation of water table",
-        "Sheet pile material",
-        "None of the above"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Piles are driven into granular soil to achieve proper compaction of soil. These piles are called:",
-      "opts": [
-        "compaction piles",
-        "batter piles",
-        "Both a and b",
-        "Belled piles",
-        "not above"
+        "1.5 times the pile diameter",
+        "2.5 times the pile diameter",
+        "3.5 times the pile diameter",
+        "4.5 times the pile diameter",
+        "More than 4.5 times the pile diameter"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "The Rankine active earth pressure coefficient for a soil with Ø = 0 is:",
+      "q": "Belled or under-reamed piles are:",
       "opts": [
-        "zero",
-        "1",
-        "-1",
-        "2",
-        "-2"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Sheet-pile walls:",
-      "opts": [
-        "need dewatering of the site",
-        "do not need dewatering of the site",
-        "do not used for waterfront structures",
-        "all of the above",
-        "none of the above"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The critical surface of sliding is:",
-      "opts": [
-        "The failure surface along which the minimum factor of safety is obtained",
-        "The failure surface along which the larger factor of safety is obtained",
-        "The failure surface along which the maximum factor of safety is obtained",
-        "Failure surface at a depth of about 1.5 times the width of base slab of the retaining",
-        "None of the above"
-      ],
-      "ans": 0,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "A retaining wall may fail in:",
-      "opts": [
-        "overturn about its toe",
-        "slide along its base",
-        "fail due to the loss of bearing capacity of the soil",
-        "fail due to excessive settlement",
-        "All of above"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "A minimum factor of safety against sliding is recommended as:",
-      "opts": [
-        "2",
-        "2.5",
-        "1.5",
-        "3",
-        "4"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The pre-stressed concrete piles as compared to pre-cast and reinforced concrete piles:",
-      "opts": [
-        "are lesser in weight",
-        "have high load carrying capacity",
-        "are extremely durable",
-        "are Highly length",
-        "All of the mentioned"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Design of gravity wall aims to:",
-      "opts": [
-        "resist excessive settlement",
-        "safe against sliding",
-        "safe against overturning",
-        "safe bearing capacity",
-        "All of the mentioned"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "On designing retaining walls it is necessary to take care of ____ exerted by soil mass:",
-      "opts": [
-        "Erosion",
-        "lateral pressure",
-        "Surcharge",
-        "vertical stress",
-        "point load"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "What is the primary function of a retaining wall?",
-      "opts": [
-        "To provides lateral support for a vertical or near-vertical slope of soil",
-        "To provide horizontal slope",
-        "To prevent erosion of a slope",
-        "To enhance the aesthetics of a slope",
-        "None of the above"
-      ],
-      "ans": 0,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Wooden sheet piles are used only for:",
-      "opts": [
-        "temporary, light structures that are above the water table",
-        "permanent, light structures that are above the water table",
-        "temporary, heavy structures that are above the water table",
-        "temporary, light structures that are under the water table",
-        "none of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "A retaining wall 5m high; unit weight of soil =17.6 kN/m³; Ka =0.2444. Calculate the Coulomb's active force per unit length of the wall.",
-      "opts": [
-        "53.77 kN/m",
-        "67.0 kN/m",
-        "30.0 kN/m",
-        "101.0 kN/m",
+        "concrete piles with enlarged base to resist uplift loads",
+        "Steel piles with plugged end",
+        "Helical piles resisting lateral loads",
+        "Piles with uniform cross section along the pile length",
         "No one of above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "What is the minimum diameter is specified for Class C timber piles used permanently under the water table?",
+      "q": "Why are bridge abutments and piers usually constructed over pile foundations?",
       "opts": [
-        "150 mm",
-        "330 mm",
-        "200 mm",
-        "356 mm",
-        "305 mm"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "When the soil conditions near the surface are poor, ............ must be used:",
-      "opts": [
-        "Shallow foundations",
-        "Deep foundation",
-        "Both a and b",
-        "earth structure",
-        "Not above"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The relation between Kp and Ka is ____:",
-      "opts": [
-        "Kp=Ka",
-        "Kp=1+Ka",
-        "Kp=1-Ka",
-        "Kp=1/Ka",
-        "Kp=1/(1-Ka)"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "What are the common shapes of sheet-pile sections?",
-      "opts": [
-        "Circular and triangular",
-        "Z, deep arch, low arch, or straight web",
-        "Square and rectangular",
-        "Elliptical and hexagonal",
-        "deep arch and Z"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Cantilever retaining walls is suitable for retaining backfill about __:",
-      "opts": [
-        "8m",
-        "12m",
-        "2m",
-        "4m",
-        "Any height"
+        "To achieve proper compaction of soil",
+        "To resist lateral loads",
+        "To avoid loss of bearing capacity due to soil erosion",
+        "To prevent damage from expansive soil",
+        "Preventing uplift"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "Compared to dry backfill, submerged backfill will exert ---------:",
+      "q": "The maximum frictional resistance along the pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
       "opts": [
-        "same earth pressure",
-        "less earth pressure",
-        "more earth pressure",
-        "difficult to tell",
+        "5 to 10 mm",
+        "2 to 3 mm",
+        "10 to 15 mm",
+        "7 to 10 mm",
+        "4-6 mm"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The main function of retaining walls is:",
+      "opts": [
+        "Stabilized of roads",
+        "Control erosion",
+        "to reduce the grades of roads",
+        "lateral support for earth structures",
+        "All of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "A 3 m high retaining wall is supporting a saturated sand (saturated due to capillary action) of bulk density 18 kN/m³ and angle of shearing resistance 30°. The change in magnitude of active earth pressure at the base due to rise in ground water table from the base of the footing to the ground surface shall (γw = 10 kN/m³):",
+      "opts": [
+        "Increase by 20 kN/m²",
+        "Decrease by 20 kN/m²",
+        "Increase by 30 kN/m²",
+        "Decrease by 30 kN/m²",
+        "Increase by 40 kN/m²"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "If the angle of internal friction decreases, then Ka:",
+      "opts": [
+        "Increases",
+        "Decreases",
+        "Does not necessarily increase",
+        "Does not necessarily decrease",
+        "Does not change"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Generally the vertical displacement of the pile which is required to mobilize full point resistance is that required to mobilize full skin friction:",
+      "opts": [
+        "much greater than",
+        "much smaller than",
+        "equal to",
+        "not greater than",
         "None of the above"
       ],
-      "ans": 1,
-      "src": "2024-06-30"
+      "ans": 0,
+      "src": "2024-04-25"
     },
     {
-      "q": "The shear key is provided to ----------:",
+      "q": "The point resistance (Qp) for a single concrete pile with a length of 6 m, diameter of 0.5 m and embedded in soil with undrained cohesion of 41 kPa is equal to:",
       "opts": [
-        "Avoid friction behind the wall",
-        "Improve appearance",
-        "Increase passive resistance",
-        "All of the above",
+        "369 kN",
+        "41 kN",
+        "246 kN",
+        "72 kN",
+        "None of the above is correct"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The N60 used in Briaud (1985) correlation to predict tip resistance of pile is:",
+      "opts": [
+        "The N60 value at the level of pile tip",
+        "the average of the N60 values from the NGL to the level of pile tip",
+        "the average of the values of 10D above and 4D below the pile tip",
+        "the average of the values of 10 to 25% of D above and below pile tip",
+        "None of the above is correct"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The principle of critical embedded depth of piles exists for the case of:",
+      "opts": [
+        "Pile embedded in clay",
+        "piles embedded in sand",
+        "piles embedded in undrained soil",
+        "piles embedded in collapsible soil",
+        "Piles embedded in loess"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Ko of a normally consolidated soil is typically in the range of:",
+      "opts": [
+        "0.4 – 0.6",
+        "1.0-1.2",
+        "1.4-2.0",
+        "2.0-2.5",
+        "All of the above"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The frictional resistance of pile in sand varies with depth till a critical depth and then it will be constant downward to the end of the pile. This depth equals:",
+      "opts": [
+        "(8-10) D",
+        "(10-12) D",
+        "(15-20) D",
+        "(22-25) D",
+        "(25-30) D"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Gravity retaining wall type is suitable for retaining backfill upto:",
+      "opts": [
+        "3-5 m",
+        "5-8 m",
+        "4 - 7 m",
+        "Any height",
         "None of the above"
       ],
-      "ans": 2,
-      "src": "2024-06-30"
+      "ans": 0,
+      "src": "2024-04-25"
     },
     {
-      "q": "Cast-in-place piles (or bored piles) is considered to be:",
+      "q": "What factor influences the nature of the variation of unit skin friction (f) in the field?",
       "opts": [
-        "non-displacement piles",
-        "high displacement piles",
-        "low displacement piles",
-        "No one of above",
+        "Pile diameter",
+        "Depth",
+        "Soil type",
+        "Installation method",
+        "Pile material"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "What condition warrants the use of point bearing piles?",
+      "opts": [
+        "When there is no stiff stratum within reasonable depth",
+        "When relying on shaft resistance becomes necessary",
+        "When the soil near the ground surface is weak",
+        "When the load is evenly distributed along the pile length",
+        "When using compaction piles becomes cost-effective"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "How does increasing the number of piles in a group typically affect elastic settlement?",
+      "opts": [
+        "It decreases settlement due to increased load-sharing among piles",
+        "It has no effect on settlement",
+        "It may increase settlement due to soil compression between piles",
+        "It increases settlement due to reduced pile stiffness",
+        "It reduces settlement due to increased lateral support between piles"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The value of σ'h at failure for rest, active, and passive state is as follows:",
+      "opts": [
+        "(σ'h)rest < (σ'h)Passive ≤ (σ'h)Active",
+        "(σ'h) Active < (σ'h) rest < (σ'h) Passive",
+        "(σ'h)Passive < (σ'h) rest < (σ'h)Active",
+        "(σ'h)Passive < (σ'h) Active < (σ'h) rest",
+        "(σ'h) Active > (σ'h) rest > (σ'h) Passive"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "A wall retained a soil of depth of 5 m. if the water table located at depth 2 m below ground surface. for undrained condition, the pore water pressure exerted on the wall is: (Φ=30°, γw = 10 kN/m³, γt = 17kN/m³, and γSat = 19 kN/m³):",
+      "opts": [
+        "zero",
+        "45 kN/m",
+        "30 kN/m",
+        "90 kN/m",
+        "27 kN/m"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The most common type of retaining walls is:",
+      "opts": [
+        "Gravity retaining walls",
+        "Semigravity retaining walls",
+        "Cantilever retaining walls",
+        "Counterfort retaining walls",
         "All of above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "The wall friction of retaining wall:",
+      "q": "What is the main contributor to downward drag forces known as negative skin friction?",
       "opts": [
-        "Decreases active earth pressure but increases passive earth pressure",
-        "Decreases passive earth pressure but increases active earth pressure",
-        "decrease both active and passive earth pressure",
-        "increases both active and passive earth pressure",
-        "None of the above"
+        "Cyclic loads during testing",
+        "Impact from vibratory hammers",
+        "Failure in the pile splices",
+        "Friction reduction between soil and pile",
+        "Soil consolidation"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "When determining the capacity of a group pile in clay, the equation ΣQu=n1 n2 (Qp+Qs) assumes:",
+      "q": "What alteration to the retaining wall structure can be made in addition to elongating the base slab to improve the factors of safety against sliding?",
+      "opts": [
+        "Create a deeper foundation for the wall",
+        "Use a key to the base slab",
+        "Dig a trench along the footing for added stability",
+        "Connect the wall to an adjacent more stable structure",
+        "Add a counterfort to the retaining wall"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Which type of piles are referred to as nondisplacement piles?",
+      "opts": [
+        "H-piles and open-ended pipe piles",
+        "Piles advanced by partial augering",
+        "Steel sheet piles",
+        "Prestressed concrete piles",
+        "Cast-in-place (or bored) piles"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "What is the nature of variation of the lateral pressure with the magnitude of wall movement?",
+      "opts": [
+        "The wall movement required to mobilize the passive state is less than that required to mobilize the active state",
+        "The wall movement required to mobilize the at-rest state is less than that required to mobilize the active state",
+        "The wall movement required to mobilize the at-rest state is less than that required to mobilize the passive state",
+        "The wall movement required to mobilize the at-rest state is equal to that required to mobilize the active state",
+        "The wall movement required to mobilize the active state is less than that required to mobilize the passive state"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "What are compaction piles?",
+      "opts": [
+        "Piles driven into cohesive soil to achieve proper compaction of soil deep below the ground surface",
+        "Piles driven into cohesive soil to achieve proper compaction of soil close to the ground surface",
+        "Piles driven into granular soil to achieve proper compaction of soil close to the ground surface",
+        "Piles driven into granular and cohesive soil to achieve proper compaction of soil close to the ground surface",
+        "Piles driven into granular soil to achieve proper compaction of soil deep below the ground surface"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The downward drag acting on a pile due to the movement of the surrounding is called:",
+      "opts": [
+        "Skin friction",
+        "Negative skin friction",
+        "Frictional force",
+        "None of the mentioned",
+        "Point bearing"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The wall movement required to mobilize the active state is __ than that required to mobilize the passive state:",
+      "opts": [
+        "slightly greater",
+        "greater",
+        "less",
+        "alike",
+        "very larger"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "One of the elastic settlement in pile foundation according to Vesic (1977), is the settlement of the pile due to:",
+      "opts": [
+        "the ultimate bearing capacity",
+        "the allowable total bearing capacity",
+        "the ultimate load carrying capacity",
+        "the working load at the pile point",
+        "the permissible bearing capacity"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The wall may tilt away from the soil that is retained. With sufficient wall tilt, a triangular soil wedge behind the wall will fail. The lateral pressure for this condition is referred to as:",
+      "opts": [
+        "active earth pressure",
+        "at rest coefficient",
+        "passive earth pressure",
+        "both of a and b",
+        "none of these"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Pile foundations are structural member where the depth is __ than the width:",
+      "opts": [
+        "greater",
+        "larger",
+        "considerably longer",
+        "equal or less",
+        "approximately less"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "A gravity retaining wall is shown in Figure using Rankine active pressure. Calculate The factor of safety against sliding. Use ΣV= 360.77 kN/m, PP= 186.59 kN/m, Ph= 126.65 kN/m:",
+      "opts": [
+        "F.S = 2.84",
+        "F.S = 2.48",
+        "F.S = 2.34",
+        "F.S = 2.2",
+        "F.S = 2"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Cast-in-place piles (or bored piles) literally cause no displacement and are known as:",
+      "opts": [
+        "Displacement piles",
+        "nondisplacement piles",
+        "compaction piles",
+        "Both a and b",
+        "not above"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The point bearing capacity, qp, of a pile in sand generally increases with the depth of embedment in the bearing stratum and reaches a maximum value at an embedment ratio of:",
+      "opts": [
+        "Lb/D > (Lb/D)cr",
+        "Lb/D = (Lb/D)cr",
+        "Lb/D < (Lb/D)cr",
+        "Both a and b",
+        "Both b and c"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "When hard driving conditions are expected, such as driving through dense gravel, shale, or soft rock. Steel piles can be fitted with:",
+      "opts": [
+        "Epoxy coating",
+        "driving points or shoes",
+        "All above",
+        "Paint coating",
+        "Not above"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The length of compaction piles depend on:",
+      "opts": [
+        "relative density of the soil before and after the compaction",
+        "the required depth of compaction",
+        "both a and b",
+        "the angle friction",
+        "Not above"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Consider a Pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The groundwater table is located at a depth of 3 m from the ground surface. Estimate Qp by using Meyerhof's method (Cu at 10-30m = 90 kN/m²):",
+      "opts": [
+        "Qp ≈ 37 kN",
+        "Qp ≈ 60 kN",
+        "Qp ≈ 133 kN",
+        "Qp ≈ 1300 kN",
+        "Qp ≈ 1500 kN"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Concrete piles may be divided into two basic categories:",
+      "opts": [
+        "Precast and cast-in-situ piles",
+        "Friction and point load piles",
+        "Open and closed end piles",
+        "Cased and uncased piles",
+        "all of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The term γDNγ* may be dropped from the equation of ultimate resistance of pile because:",
+      "opts": [
+        "γ is small",
+        "the D is small",
+        "the D is large",
+        "Nγ* is zero",
+        "γ is large"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The main purpose of the shoes (Driving point) in steel piles is:",
+      "opts": [
+        "Extend the length of the pile",
+        "Enlarge the base of the pile",
+        "Add resistance to chemical materials",
+        "Protect the pile end from damage when driven in hard soils",
+        "Protect the pile when driven in expansive soils"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Consider a pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The subsoil properties from 10 – 30 m is Y = 18 kN/m³ and Cu = 90 KN/m². Using Meyerhof's method, the ultimate point Qp can be approximated to:",
+      "opts": [
+        "133 KN",
+        "333 KN",
+        "1033 KN",
+        "34 KN",
+        "170 KN"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "When determining the capacity of a group pile in clay, the equation ΣQu = n1 n2 (Qp + Qs) assumes:",
       "opts": [
         "The piles in the group act as a block (group)",
         "The Piles in the group subjected to uplift pressure",
         "The piles in the group undergo negative skin pressure",
-        "The piles in the group act individually and the total capacity is the summation of the individual pile capacities",
+        "The piles in the group act as summation of the individual pile capacities",
         "The Piles in the group subjected to moment in both directions"
       ],
-      "ans": 3,
-      "src": "2024-06-30"
+      "ans": 0,
+      "src": "2024-04-25"
     },
     {
-      "q": "The best Sheet-pile walls for retaining a soil cut deeper than 6 m is:",
+      "q": "If the backfill carries a uniform surcharge q, then the lateral pressure at the depth of wall H is:",
       "opts": [
-        "Anchored sheet pile",
-        "Cantilever sheet pile",
-        "Both A and B",
-        "Neither A nor B",
-        "Secant pile"
+        "pa = Ka γz + Ka q",
+        "pa = Ka γz - Ka q",
+        "pa = Ka γz * Ka q",
+        "pa = Ka γz / Ka q",
+        "pa = Ka γz + q"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "When the soil is at rest condition, the wall tend to ------------:",
+      "q": "In the field, for full mobilization of the point resistance (Qp), the pile tip must go through a displacement of:",
       "opts": [
-        "Move towards the supported soil",
-        "Move away from the supported soil",
-        "Still without movement",
-        "Have excessive settlement",
-        "Have shear failure"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The group efficiency of driven pile group in sand at a close spacing may be:",
-      "opts": [
-        "Equal to 1",
-        "Well below 1",
-        "Greater than 1",
-        "below 0.5",
-        "None of above"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Vibratory pile is effective with ................:",
-      "opts": [
-        "Precast piles",
-        "Bored piles",
-        "Timber piles",
-        "Steel piles",
-        "All of the mentioned"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The Coefficient of passive pressure (Kp) is------------------if the Coefficient of active pressure (Ka) is 0.25:",
-      "opts": [
-        "0.33",
-        "4.0",
-        "0.25",
-        "0.5",
-        "1"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "A cantilever sheet pile derives its stability from:",
-      "opts": [
-        "lateral resistance of soil",
-        "self-weight",
-        "the dead man",
-        "the anchor rods",
-        "surcharge"
+        "8 to 20% of the pile width (or diameter)",
+        "10 to 25% of the pile width (or diameter)",
+        "10 to 50% of the pile width (or diameter)",
+        "25 to 50% of the pile width (or diameter)",
+        "10 to 15% of the pile width (or diameter)"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "How is the base-level bending moment of a cantilever retaining wall expressed as a function of its height H?",
+      "q": "When the wall restrained from moving, the lateral earth pressure on the wall at any depth is called the:",
       "opts": [
-        "H",
-        "H/2",
-        "H/3",
-        "H/6",
-        "Undefined"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Which one of the following is the correct assumption of Rankine's theory?",
-      "opts": [
-        "The soil mass is infinite",
-        "The soil mass is non homogeneous",
-        "The soil mass is cohesive",
-        "The ground surface is a plane which may be horizontal or inclined",
-        "All of the mentioned"
+        "Passive earth pressure",
+        "active earth pressure",
+        "at-rest earth pressure",
+        "vertical pressure",
+        "none of the above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "The active earth pressure of a soil is proportional to (where Ø is the angle of friction of the soil):",
+      "q": "The coefficient of earth pressure at rest is represented as expression given by Jaky:",
       "opts": [
-        "tan (45° - Ø)",
-        "tan (45° + Ø)",
-        "tan² (45° - Ø/2)",
-        "tan² (45° + Ø/2)",
-        "None of the above"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The common types of retaining wall may be classified as follows:",
-      "opts": [
-        "Gravity retaining walls",
-        "Semi-gravity retaining walls",
-        "Cantilever retaining walls",
-        "Counterfort retaining walls",
-        "All the mentioned"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The movement of soil under the action of load can be prevented by confining the ground by use of:",
-      "opts": [
-        "Steel pile",
-        "Concrete pile",
-        "Timber pile",
-        "Sheet pile",
-        "None of the above"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The intensity of the active pressure for sheet piles at a depth Z = L₁ is:",
-      "opts": [
-        "0.5 γ L₁ Ka",
-        "γ L₁ Ka",
-        "2 γ L₁ Ka",
-        "γ L₁ Kp",
-        "0.5 γ L₁ Kp"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Obtaining the maximum moment (Mmax) per unit length of the wall at shear equal to:",
-      "opts": [
-        "Maximum Force",
-        "Minimum Force",
-        "Zero",
-        "The passive earth pressure",
-        "The active earth pressure"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Related to Stability of RW, Which of the following does NOT represent a potential failure mode for a retaining wall?",
-      "opts": [
-        "Bearing capacity failure of the foundation soil",
-        "Wall cracking due to thermal expansion",
-        "Excessive settlement due to weak soil layer",
-        "Shear failure within the foundation soil adjacent to the wall",
-        "Sliding along the base due to insufficient friction"
-      ],
-      "ans": 1,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "If the desired factor of safety against sliding is not met, which strategy is NOT a suitable solution?",
-      "opts": [
-        "Increase base slab width",
-        "Use a key to the base slab",
-        "Use a deadman anchor",
-        "Reduce the backfill angle",
-        "All of the above"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The maximum point resistance will not be mobilized until the tip of the pile has moved about:",
-      "opts": [
-        "(5 to 10%) D",
-        "(15 to 25%) D",
-        "(10 to 25%) D",
-        "(7 to 25%) D",
-        "(10 to 20%) D"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "In contrast to the construction of other types of retaining walls, the building of sheet-pile walls does not usually require ---------------- of the site:",
-      "opts": [
-        "soaking",
-        "defreezing",
-        "polluting",
-        "sinking",
-        "dewatering"
-      ],
-      "ans": 4,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "What is the equation for the ultimate load-carrying capacity of a pile?",
-      "opts": [
-        "Qu = Qp - Qs",
-        "Qp = Qu + Qs",
-        "Qs = Qu + Qp",
-        "Qu = Qp + Qs",
-        "none of them"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The factor that is responsible for inclination of resultant pressure to the retaining wall is:",
-      "opts": [
-        "Frictional force",
-        "Surcharge",
-        "Earth pressure",
-        "Weight of the wall",
-        "All of the mentioned"
+        "K0=1-sinφ",
+        "K0=sinφ",
+        "K0=1-cosφ",
+        "K0=cosφ",
+        "K0= tanφ"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "When there is no stiff stratum within a reasonable depth:",
+      "q": "The area of the pile group along the failure surface is equal to:",
       "opts": [
-        "Qu= Qp + Qs",
-        "Qu= Qp",
-        "Qu= Qs",
-        "all of the mentioned",
-        "none of the mentioned"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "A sheet pile subjected to a concentrated horizontal load at its top is known as:",
-      "opts": [
-        "Cantilever sheet pile",
-        "Diaphragm sheet pile",
-        "Free cantilever sheet pile",
-        "Anchored sheet pile walls",
-        "All of the above"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The point resistance (Qp) of a driven square pile of width 0.4 m in saturated clay that has a cohesion of 100 kN/m² equal to ---------:",
-      "opts": [
-        "90 ton",
-        "80 ton",
-        "144 ton",
-        "900 kN",
-        "1224 kN"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The pressure distribution diagram for earth pressure at rest is:",
-      "opts": [
-        "rectangular",
-        "circular",
-        "constant",
-        "triangular",
-        "square"
-      ],
-      "ans": 3,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "Which statement is correct?",
-      "opts": [
-        "Ko>KP>Ka",
-        "Ko>KP>Ka",
-        "KP>Ko>Ka",
-        "Ka>KP>Ko",
-        "No one of above"
-      ],
-      "ans": 2,
-      "src": "2024-06-30"
-    },
-    {
-      "q": "The coefficient of earth pressure at rest is represented as ________ expression given by Jaky:",
-      "opts": [
-        "ko=1-sinφ",
-        "ko=sinφ",
-        "ko=1-cosφ",
-        "ko=cosφ",
-        "ko= tanφ"
+        "Perimeter × Area of cross section",
+        "Breadth × Length",
+        "Perimeter × Length",
+        "Perimeter / Length",
+        "Perimeter/area of cross section"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "2024-04-25"
     },
     {
-      "q": "What structure behavior implies the action of passive earth pressure?",
+      "q": "The settlement of a group of friction piles can be computed on the assumption that:",
       "opts": [
-        "The wall being under heavy loads",
-        "The wall inclining away from the soil",
-        "The wall contracting due to cold",
-        "The wall being pushed into the soil",
-        "The wall extending vertically"
+        "Clay is incompressible",
+        "Pile below the lower level is ignored",
+        "Bearing resistance is zero",
+        "All of the mentioned",
+        "None of the mentioned"
       ],
-      "ans": 3,
-      "src": "2024-06-30"
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The pile load test should be performed on:",
+      "opts": [
+        "Working piles",
+        "Trial piles",
+        "Working and trial piles",
+        "Soil",
+        "None of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "In practice, the minimum center-to-center pile spacing, d, is:",
+      "opts": [
+        "2.5D",
+        "3D",
+        "3.5D",
+        "2D to 3D",
+        "2.5D to 3D"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "If the wall is prevented from moving, then the lateral pressure of the earth on the wall at any depth is called:",
+      "opts": [
+        "the Active earth pressure",
+        "the Passive earth pressure",
+        "the at-rest earth pressure",
+        "All of the mentioned",
+        "None of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "Different types of piles are used in practice, depending on:",
+      "opts": [
+        "load to be carried",
+        "soil conditions",
+        "location of the water table",
+        "the installation technique",
+        "All mentioned above"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "A concrete pile 15.24 m long having a cross section of 406 mm x 406 mm is fully embedded in a saturated clay layer for which γ= 19.02 kN/m³, and cu =76.7 kN/m². Use the λ method to estimate the skin friction:",
+      "opts": [
+        "194.86",
+        "294.86",
+        "394.86",
+        "494.86",
+        "594.86"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
+    },
+    {
+      "q": "The pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
+      "opts": [
+        "5 mm",
+        "10 mm",
+        "5 cm",
+        "10 cm",
+        "5-10 mm"
+      ],
+      "ans": 0,
+      "src": "2024-04-25"
     }
   ],
   "exam2": [
-    {
-      "q": "Reinforcement is included in concrete piles primarily to resist:",
-      "opts": [
-        "Shear stress during driving",
-        "Axial compression during service",
-        "Bending moment during pickup and transportation",
-        "Uplift forces from foundation settlements",
-        "Not above"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The factor of safety in piles generally used ranges from:",
-      "opts": [
-        "1 to 2",
-        "2 to 3",
-        "3 to 4",
-        "5 to 6",
-        "No one of above"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "In general, the settlement of pile group in saturated clay layer is .......... sandy layer:",
-      "opts": [
-        "equal",
-        "more than",
-        "less than",
-        "less or equal",
-        "None of the above"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Piles are recommended in the following situations:",
-      "opts": [
-        "In weak ground conditions",
-        "For carrying lateral loads",
-        "In expansive or collapsible soil",
-        "For resisting uplift",
-        "All of above"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "For the equation f=kσ' tanδ', K is ............. for great depth:",
-      "opts": [
-        "Rankine active earth pressure coefficient",
-        "Rankine passive earth pressure coefficient",
-        "At-rest pressure coefficient",
-        "all of the mentioned",
-        "none of the mentioned"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "How do gravity retaining walls achieve stability?",
-      "opts": [
-        "They depend for stability on their own weight and any soil resting on the masonry",
-        "By relying on external braces",
-        "By using soil anchors",
-        "By incorporating steel reinforcement",
-        "None of the above"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The minimum tip diameter for Class B timber piles should not be less than:",
-      "opts": [
-        "150 mm",
-        "250 mm",
-        "305 mm",
-        "330 mm",
-        "356 mm"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The actual depth of penetration is ............................of the theoretical depth for cantilever sheet piling penetrating clay:",
-      "opts": [
-        "increased by 20% to 30%",
-        "increased by 40% to 60%",
-        "the same",
-        "reduced by 10%",
-        "increased by 10%"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Which of the following can be done to improve the factor of safety against sliding if the desired value is not met?",
-      "opts": [
-        "Increase the width of the base slab (heel of the footing)",
-        "Decrease the thickness of the base slab",
-        "Apply a tensile force at the top of the retaining wall",
-        "Shorten the cantilever arm of the retaining wall",
-        "Decrease the weight of the retaining wall"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The effect of cohesion on a soil is to ____:",
-      "opts": [
-        "reduce both active and passive earth pressure intensities",
-        "increase both active and passive earth pressure intensities",
-        "reduce active earth pressure intensity but to increase passive earth pressure intensity",
-        "increase active earth pressure intensity but to reduce passive earth pressure intensity",
-        "reduce active and passive earth pressure intensity"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "A 500 mm diameter and 20 m long concrete pile is driven into a sand where γ=18.5 kN/m³ and Ø=32°. The point loading of pile is ____:",
-      "opts": [
-        "4580 kN",
-        "496 kN",
-        "2870 kN",
-        "1970 kN",
-        "3560 kN"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "A retaining wall of height H with a smooth vertical back face supports a backfill inclined at an angle β with the horizontal. The backfill consists of cohesionless soil having an angle of internal friction φ. If the active lateral thrust acting on the wall is Pa, which one of the following statements is TRUE?",
-      "opts": [
-        "Pa acts at a height H/2 from the base of the wall and at an angle β with the horizontal",
-        "Pa acts at a height H/2 from the base of the wall and at an angle φ with the horizontal",
-        "Pa acts at a height H/3 from the base of the wall and at an angle β with the horizontal",
-        "Pa acts at a height H/3 from the base of the wall and at an angle φ with the horizontal",
-        "Pa acts at a height 2H/3 from the base of the wall and at an angle β with the horizontal"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "When structural load is heavy and/or soil having low bearing capacity for considerable depth, the suitable foundation for this situation is:",
-      "opts": [
-        "Shallow footings",
-        "Piles",
-        "Rafts",
-        "Wells or Piers",
-        "Combined footing"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "While driving a large number of piles in loose sand:",
-      "opts": [
-        "It is advantageous to follow a sequence of pile driving such that the inner piles are driven first and then proceed outwards",
-        "It is advantageous to follow a sequence of pile driving such that the piles near the periphery are driven first and inner piles are driven later",
-        "It is advantages to follow a sequence of pile driving such that alternatively inner and outer piles are driven",
-        "Driving of piles can be done in any random order",
-        "None of the above"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The elastic compression ΔL of a pile can be calculated by the expression based on:",
-      "opts": [
-        "Terzaghi's theory",
-        "Hooke's law",
-        "Meyerhof's theory",
-        "Hiley's formula",
-        "None of the above"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "At similar depth, the unit frictional resistance, f, is - Variation of the unit frictional resistance for different piles:",
-      "opts": [
-        "Higher in low displacement piles",
-        "Same in all pile types",
-        "Higher for high displacement piles",
-        "Higher for bored piles",
-        "Higher in H piles"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Nowadays, fiber reinforced polymer (FRP) composite piles are widely used for:",
-      "opts": [
-        "waterfront structures",
-        "Basements",
-        "Residential Building",
-        "Seismic Condition",
-        "None of the mention"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Connected or semi-connected ................are often used to build continuous walls for waterfront structures that range from small waterfront pleasure boat launching facilities to large dock facilities:",
-      "opts": [
-        "Steel piles",
-        "Concrete piles",
-        "Timber piles",
-        "Sheet piles",
-        "None of the mentioned"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "In prestressed precast piles, During casting of the piles, the cables are ..........pretensioned to about, and concrete is poured around them:",
-      "opts": [
-        "900 to 1300 MN/m²",
-        "600 to 800 MN/m²",
-        "500 to 700 MN/m²",
-        "1500 to 2000 MN/m²",
-        "None of the mention"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Based on Meyerhof SPT formula, the ratio of frictional resistance of low displacement pile to that of high displacement pile driven in the same soil is:",
-      "opts": [
-        "One fourth",
-        "One third",
-        "Two third",
-        "One fifth",
-        "One half"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The precast concrete piles are generally used for a maximum design load of about:",
-      "opts": [
-        "50 tones",
-        "60 tones",
-        "75 tones",
-        "80 tones",
-        "100 tones"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The piles that are used for protecting structures from ships and floating object is:",
-      "opts": [
-        "Anchor piles",
-        "Fender piles",
-        "Compaction piles",
-        "Batter piles",
-        "Sheet piles"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The minimum factor of safety against sliding for retaining wall would be:",
-      "opts": [
-        "1.5",
-        "2",
-        "2.5",
-        "3",
-        "3.5"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The most economical type of retaining wall used to retain a soil of height of 10 m is:",
-      "opts": [
-        "Gravity wall",
-        "Cantilever wall",
-        "Counterfort wall",
-        "Semi-gravity wall",
-        "Cantilever wall or Counterfort wall"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "When the piles are enlarged to provide anchorage against uplift. Such piles are known as:",
-      "opts": [
-        "belled or underreamed piles",
-        "batter piles",
-        "Both a and b",
-        "All above",
-        "not above"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "These piles may be divided into two broad categories: (a) cased and (b) uncased:",
-      "opts": [
-        "Cast-in-situ",
-        "Precast piles",
-        "Steel piles",
-        "Both a and b",
-        "not above"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "In friction piles, it is assumed that the entire load is transferred through the pile shaft in the form of friction or adhesion, with Qp is:",
-      "opts": [
-        "Qp > 0",
-        "Qp = 50% Qu",
-        "Qp = 0",
-        "Both a and b",
-        "Both b and c"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Related to Stability of RW, which of the following DOES NOT represent a potential failure mode for a retaining wall?",
-      "opts": [
-        "Bearing capacity failure of the foundation soil",
-        "Wall cracking due to thermal expansion",
-        "Excessive settlement due to weak soil layer",
-        "Shear failure within the foundation soil adjacent to the wall",
-        "Sliding along the base due to insufficient friction"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "In designing a retaining wall, Rankine's active earth pressure theory for stability checks involves drawing a vertical line through point located at...................:",
-      "opts": [
-        "Top of the stem",
-        "Edge of the toe",
-        "Center of the base slab",
-        "Bottom of the base slab",
-        "Edge of the heel of the base slab"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Deep shear failure in retaining walls can occur along a cylindrical surface as a result of the existence of a weak layer of soil underneath the wall within a depth of about ---- times the width of the base slab of the retaining wall:",
-      "opts": [
-        "1.5",
-        "2.0",
-        "2.5",
-        "3.0",
-        "4.0"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What method do many structural engineers often utilize to obtain group efficiency for friction piles, especially in sand?",
-      "opts": [
-        "Advanced computational simulations",
-        "Experimental field tests",
-        "Simplified analysis",
-        "Full-scale load testing",
-        "Finite element analysis"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The purpose of used the counterforts in Counterfort retaining walls is to reduce:",
-      "opts": [
-        "The shear and the bending moments",
-        "width",
-        "height",
-        "width and height",
-        "cost"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The efficiency of pile group depends upon:",
-      "opts": [
-        "Characteristic of pile",
-        "Spacing of pile",
-        "both of the above",
-        "Bearing capacity of soil",
-        "length of the pile"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "A uniform load of 50 kN/m² on a soil with unit weight 20 kN/m³ carried by a retaining wall is considered as an equivalent to an extra height of soil equal to:",
-      "opts": [
-        "1.5 m",
-        "2.0 m",
-        "2.25 m",
-        "2.5 m",
-        "2.75 m"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "During the active state of plastic equilibrium, the retaining wall moves:",
-      "opts": [
-        "towards the fill",
-        "away from the fill",
-        "does not change its position",
-        "remains in equilibrium",
-        "down ward"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The coefficient of earth pressure when the soil is at equilibrium:",
-      "opts": [
-        "σv /σh",
-        "σh /σv",
-        "σv × σh",
-        "σ1 / σ3",
-        "σh+σv"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "In point load piles:",
-      "opts": [
-        "the entire load is transferred through the pile shaft",
-        "the entire load is point resistance",
-        "the entire load is equally of (a) and (b)",
-        "neither (a) nor (b)",
-        "none of the above"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Ultimate bearing capacity of pile group increase when:",
-      "opts": [
-        "Increasing pile number",
-        "reduce pile number",
-        "increase soil cohesion",
-        "increase soil angle of internal friction",
-        "reducing soil cohesion"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "When selecting the type of retaining wall, the following factor is most important (select the INCORRECT answer):",
-      "opts": [
-        "Cost and aesthetic preference",
-        "The type of soil and water load behind the wall",
-        "The wall's color and texture",
-        "The wall's height and width",
-        "The weather conditions at the site"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "H-section piles are usually preferred on I-section beam:",
-      "opts": [
-        "Because their web and flange length are equal",
-        "Because their web thicknesses are longer than the flange thicknesses",
-        "Because their web and flange thicknesses are equal",
-        "Because their web thicknesses are smaller than the flange thicknesses",
-        "none of the above"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What is the definition of a retaining wall?",
-      "opts": [
-        "It is wall that provides lateral support for a vertical slop of soil",
-        "It is wall that provides lateral support for a horizontal slope of soil",
-        "It is wall that provides lateral support for a vertical or near vertical slope of soil",
-        "Both a, b",
-        "None of the above is correct"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What is the range of the factor ξ used in the elastic settlement equation for piles?",
-      "opts": [
-        "0.1 to 0.3",
-        "0.3 to 0.5",
-        "0.5 to 0.67",
-        "0.67 to 0.9",
-        "None of the above is correct"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The purpose of using a key to the base slab in retaining walls is:",
-      "opts": [
-        "Prevent overturning",
-        "Prevent sliding",
-        "Prevent bearing capacity failure",
-        "Prevent deep-seated shear failure",
-        "None of the above is correct"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The load test procedure requires the application of step loads on the piles and the measurement of settlement and is called:",
-      "opts": [
-        "The constant-rate-of-penetration test",
-        "cyclic loading",
-        "The load-controlled test",
-        "Rebound loading",
-        "No one of these"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The downward drag force exerted on a pile by the soil surrounding it is known as:",
-      "opts": [
-        "Negative Skin Friction",
-        "Friction force",
-        "Bearing force",
-        "Tension force",
-        "Compression force"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The wooden sheet piles usually used for:",
-      "opts": [
-        "temporary, heavy structures below the water table",
-        "permanent structures above the water table",
-        "temporary, light structures below the water table",
-        "temporary, light structures above the water table",
-        "permanent structures below the water table"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The typical thicknesses of steel sheet piles in the United States are:",
-      "opts": [
-        "15 to 18 mm",
-        "20 to 25 mm",
-        "30 to 35 mm",
-        "5 to 8 mm",
-        "10 to 13 mm"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The assumptions made when using the Rankine earth pressure theory for stability checks of a cantilever wall are:",
-      "opts": [
-        "Coulomb active condition along a vertical plane through the heel",
-        "No assumptions are made; it is based on empirical data",
-        "Rankine active condition along a vertical plane through the heel",
-        "Rankine passive condition along a horizontal plane through the base",
-        "Coulomb passive condition along a horizontal plane through the base"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What happens at the point of rotation in a cantilever sheet pile wall?",
-      "opts": [
-        "Active and passive earth pressures are equal",
-        "Hydrostatic pressure is maximized",
-        "The moment is at its peak",
-        "The wall moves upwards because it undergoes a moment reversal",
-        "The sheet pile experiences zero lateral pressure"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What distinguishes passive earth pressure from active earth pressure?",
-      "opts": [
-        "The direction of wall movement",
-        "The type of soil failure",
-        "The value of the earth pressure coefficient",
-        "All of the above",
-        "None of the above"
-      ],
-      "ans": 2,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The downward drag acting on a pile due to the movement of the surrounding soil is called:",
-      "opts": [
-        "Skin friction force",
-        "Negative skin friction force",
-        "Frictional force",
-        "Point bearing force",
-        "Tension force"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What type of pile is designed primarily to transfer load through skin friction?",
-      "opts": [
-        "End-bearing piles",
-        "Friction piles",
-        "Composite piles",
-        "Timber piles",
-        "Pile caps"
-      ],
-      "ans": 1,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "Steel, and precast concrete piles are generally:",
-      "opts": [
-        "Bored piles",
-        "End Bearing piles",
-        "Cast-in-situ piles",
-        "Driven piles",
-        "All of above"
-      ],
-      "ans": 3,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "What is the at-rest earth pressure?",
-      "opts": [
-        "The lateral earth pressure on a retaining wall when the wall is at failure",
-        "The lateral earth pressure on a retaining wall when the wall is pushed into the soil",
-        "The lateral earth pressure on a retaining wall when the wall is restrained from moving",
-        "The lateral earth pressure on a retaining wall when the wall tilts away from the soil",
-        "The lateral earth pressure on a retaining wall when the wall is at rest"
-      ],
-      "ans": 4,
-      "src": "2025-09-10"
-    },
-    {
-      "q": "The coefficient of active earth pressure is ______ than the coefficient of passive pressure:",
-      "opts": [
-        "less",
-        "greater",
-        "equal to",
-        "high",
-        "more"
-      ],
-      "ans": 0,
-      "src": "2025-09-10"
-    }
-  ],
-  "exam3": [
     {
       "q": "The end bearing is fully mobilized when the pile settlement is equal to:",
       "opts": [
@@ -1985,657 +1311,7 @@ const QUESTIONS = {
       "src": "2024-05-12"
     }
   ],
-  "exam4": [
-    {
-      "q": "Which class of timber piles is carry heavy loads:",
-      "opts": [
-        "Any class",
-        "Class C",
-        "Class A",
-        "Class B",
-        "Class D"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "For driven piles in sand, the vibration caused during pile driving helps densify the soil around the pile. The zone of sand densification may be as much as:",
-      "opts": [
-        "1.5 times the pile diameter",
-        "2.5 times the pile diameter",
-        "3.5 times the pile diameter",
-        "4.5 times the pile diameter",
-        "More than 4.5 times the pile diameter"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Belled or under-reamed piles are:",
-      "opts": [
-        "concrete piles with enlarged base to resist uplift loads",
-        "Steel piles with plugged end",
-        "Helical piles resisting lateral loads",
-        "Piles with uniform cross section along the pile length",
-        "No one of above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Why are bridge abutments and piers usually constructed over pile foundations?",
-      "opts": [
-        "To achieve proper compaction of soil",
-        "To resist lateral loads",
-        "To avoid loss of bearing capacity due to soil erosion",
-        "To prevent damage from expansive soil",
-        "Preventing uplift"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The maximum frictional resistance along the pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
-      "opts": [
-        "5 to 10 mm",
-        "2 to 3 mm",
-        "10 to 15 mm",
-        "7 to 10 mm",
-        "4-6 mm"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The main function of retaining walls is:",
-      "opts": [
-        "Stabilized of roads",
-        "Control erosion",
-        "to reduce the grades of roads",
-        "lateral support for earth structures",
-        "All of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "A 3 m high retaining wall is supporting a saturated sand (saturated due to capillary action) of bulk density 18 kN/m³ and angle of shearing resistance 30°. The change in magnitude of active earth pressure at the base due to rise in ground water table from the base of the footing to the ground surface shall (γw = 10 kN/m³):",
-      "opts": [
-        "Increase by 20 kN/m²",
-        "Decrease by 20 kN/m²",
-        "Increase by 30 kN/m²",
-        "Decrease by 30 kN/m²",
-        "Increase by 40 kN/m²"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "If the angle of internal friction decreases, then Ka:",
-      "opts": [
-        "Increases",
-        "Decreases",
-        "Does not necessarily increase",
-        "Does not necessarily decrease",
-        "Does not change"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Generally the vertical displacement of the pile which is required to mobilize full point resistance is that required to mobilize full skin friction:",
-      "opts": [
-        "much greater than",
-        "much smaller than",
-        "equal to",
-        "not greater than",
-        "None of the above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The point resistance (Qp) for a single concrete pile with a length of 6 m, diameter of 0.5 m and embedded in soil with undrained cohesion of 41 kPa is equal to:",
-      "opts": [
-        "369 kN",
-        "41 kN",
-        "246 kN",
-        "72 kN",
-        "None of the above is correct"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The N60 used in Briaud (1985) correlation to predict tip resistance of pile is:",
-      "opts": [
-        "The N60 value at the level of pile tip",
-        "the average of the N60 values from the NGL to the level of pile tip",
-        "the average of the values of 10D above and 4D below the pile tip",
-        "the average of the values of 10 to 25% of D above and below pile tip",
-        "None of the above is correct"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The principle of critical embedded depth of piles exists for the case of:",
-      "opts": [
-        "Pile embedded in clay",
-        "piles embedded in sand",
-        "piles embedded in undrained soil",
-        "piles embedded in collapsible soil",
-        "Piles embedded in loess"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Ko of a normally consolidated soil is typically in the range of:",
-      "opts": [
-        "0.4 – 0.6",
-        "1.0-1.2",
-        "1.4-2.0",
-        "2.0-2.5",
-        "All of the above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The frictional resistance of pile in sand varies with depth till a critical depth and then it will be constant downward to the end of the pile. This depth equals:",
-      "opts": [
-        "(8-10) D",
-        "(10-12) D",
-        "(15-20) D",
-        "(22-25) D",
-        "(25-30) D"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Gravity retaining wall type is suitable for retaining backfill upto:",
-      "opts": [
-        "3-5 m",
-        "5-8 m",
-        "4 - 7 m",
-        "Any height",
-        "None of the above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What factor influences the nature of the variation of unit skin friction (f) in the field?",
-      "opts": [
-        "Pile diameter",
-        "Depth",
-        "Soil type",
-        "Installation method",
-        "Pile material"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What condition warrants the use of point bearing piles?",
-      "opts": [
-        "When there is no stiff stratum within reasonable depth",
-        "When relying on shaft resistance becomes necessary",
-        "When the soil near the ground surface is weak",
-        "When the load is evenly distributed along the pile length",
-        "When using compaction piles becomes cost-effective"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "How does increasing the number of piles in a group typically affect elastic settlement?",
-      "opts": [
-        "It decreases settlement due to increased load-sharing among piles",
-        "It has no effect on settlement",
-        "It may increase settlement due to soil compression between piles",
-        "It increases settlement due to reduced pile stiffness",
-        "It reduces settlement due to increased lateral support between piles"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The value of σ'h at failure for rest, active, and passive state is as follows:",
-      "opts": [
-        "(σ'h)rest < (σ'h)Passive ≤ (σ'h)Active",
-        "(σ'h) Active < (σ'h) rest < (σ'h) Passive",
-        "(σ'h)Passive < (σ'h) rest < (σ'h)Active",
-        "(σ'h)Passive < (σ'h) Active < (σ'h) rest",
-        "(σ'h) Active > (σ'h) rest > (σ'h) Passive"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "A wall retained a soil of depth of 5 m. if the water table located at depth 2 m below ground surface. for undrained condition, the pore water pressure exerted on the wall is: (Φ=30°, γw = 10 kN/m³, γt = 17kN/m³, and γSat = 19 kN/m³):",
-      "opts": [
-        "zero",
-        "45 kN/m",
-        "30 kN/m",
-        "90 kN/m",
-        "27 kN/m"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The most common type of retaining walls is:",
-      "opts": [
-        "Gravity retaining walls",
-        "Semigravity retaining walls",
-        "Cantilever retaining walls",
-        "Counterfort retaining walls",
-        "All of above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What is the main contributor to downward drag forces known as negative skin friction?",
-      "opts": [
-        "Cyclic loads during testing",
-        "Impact from vibratory hammers",
-        "Failure in the pile splices",
-        "Friction reduction between soil and pile",
-        "Soil consolidation"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What alteration to the retaining wall structure can be made in addition to elongating the base slab to improve the factors of safety against sliding?",
-      "opts": [
-        "Create a deeper foundation for the wall",
-        "Use a key to the base slab",
-        "Dig a trench along the footing for added stability",
-        "Connect the wall to an adjacent more stable structure",
-        "Add a counterfort to the retaining wall"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Which type of piles are referred to as nondisplacement piles?",
-      "opts": [
-        "H-piles and open-ended pipe piles",
-        "Piles advanced by partial augering",
-        "Steel sheet piles",
-        "Prestressed concrete piles",
-        "Cast-in-place (or bored) piles"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What is the nature of variation of the lateral pressure with the magnitude of wall movement?",
-      "opts": [
-        "The wall movement required to mobilize the passive state is less than that required to mobilize the active state",
-        "The wall movement required to mobilize the at-rest state is less than that required to mobilize the active state",
-        "The wall movement required to mobilize the at-rest state is less than that required to mobilize the passive state",
-        "The wall movement required to mobilize the at-rest state is equal to that required to mobilize the active state",
-        "The wall movement required to mobilize the active state is less than that required to mobilize the passive state"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "What are compaction piles?",
-      "opts": [
-        "Piles driven into cohesive soil to achieve proper compaction of soil deep below the ground surface",
-        "Piles driven into cohesive soil to achieve proper compaction of soil close to the ground surface",
-        "Piles driven into granular soil to achieve proper compaction of soil close to the ground surface",
-        "Piles driven into granular and cohesive soil to achieve proper compaction of soil close to the ground surface",
-        "Piles driven into granular soil to achieve proper compaction of soil deep below the ground surface"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The downward drag acting on a pile due to the movement of the surrounding is called:",
-      "opts": [
-        "Skin friction",
-        "Negative skin friction",
-        "Frictional force",
-        "None of the mentioned",
-        "Point bearing"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The wall movement required to mobilize the active state is __ than that required to mobilize the passive state:",
-      "opts": [
-        "slightly greater",
-        "greater",
-        "less",
-        "alike",
-        "very larger"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "One of the elastic settlement in pile foundation according to Vesic (1977), is the settlement of the pile due to:",
-      "opts": [
-        "the ultimate bearing capacity",
-        "the allowable total bearing capacity",
-        "the ultimate load carrying capacity",
-        "the working load at the pile point",
-        "the permissible bearing capacity"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The wall may tilt away from the soil that is retained. With sufficient wall tilt, a triangular soil wedge behind the wall will fail. The lateral pressure for this condition is referred to as:",
-      "opts": [
-        "active earth pressure",
-        "at rest coefficient",
-        "passive earth pressure",
-        "both of a and b",
-        "none of these"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Pile foundations are structural member where the depth is __ than the width:",
-      "opts": [
-        "greater",
-        "larger",
-        "considerably longer",
-        "equal or less",
-        "approximately less"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "A gravity retaining wall is shown in Figure using Rankine active pressure. Calculate The factor of safety against sliding. Use ΣV= 360.77 kN/m, PP= 186.59 kN/m, Ph= 126.65 kN/m:",
-      "opts": [
-        "F.S = 2.84",
-        "F.S = 2.48",
-        "F.S = 2.34",
-        "F.S = 2.2",
-        "F.S = 2"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Cast-in-place piles (or bored piles) literally cause no displacement and are known as:",
-      "opts": [
-        "Displacement piles",
-        "nondisplacement piles",
-        "compaction piles",
-        "Both a and b",
-        "not above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The point bearing capacity, qp, of a pile in sand generally increases with the depth of embedment in the bearing stratum and reaches a maximum value at an embedment ratio of:",
-      "opts": [
-        "Lb/D > (Lb/D)cr",
-        "Lb/D = (Lb/D)cr",
-        "Lb/D < (Lb/D)cr",
-        "Both a and b",
-        "Both b and c"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "When hard driving conditions are expected, such as driving through dense gravel, shale, or soft rock. Steel piles can be fitted with:",
-      "opts": [
-        "Epoxy coating",
-        "driving points or shoes",
-        "All above",
-        "Paint coating",
-        "Not above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The length of compaction piles depend on:",
-      "opts": [
-        "relative density of the soil before and after the compaction",
-        "the required depth of compaction",
-        "both a and b",
-        "the angle friction",
-        "Not above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Consider a Pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The groundwater table is located at a depth of 3 m from the ground surface. Estimate Qp by using Meyerhof's method (Cu at 10-30m = 90 kN/m²):",
-      "opts": [
-        "Qp ≈ 37 kN",
-        "Qp ≈ 60 kN",
-        "Qp ≈ 133 kN",
-        "Qp ≈ 1300 kN",
-        "Qp ≈ 1500 kN"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Concrete piles may be divided into two basic categories:",
-      "opts": [
-        "Precast and cast-in-situ piles",
-        "Friction and point load piles",
-        "Open and closed end piles",
-        "Cased and uncased piles",
-        "all of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The term γDNγ* may be dropped from the equation of ultimate resistance of pile because:",
-      "opts": [
-        "γ is small",
-        "the D is small",
-        "the D is large",
-        "Nγ* is zero",
-        "γ is large"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The main purpose of the shoes (Driving point) in steel piles is:",
-      "opts": [
-        "Extend the length of the pile",
-        "Enlarge the base of the pile",
-        "Add resistance to chemical materials",
-        "Protect the pile end from damage when driven in hard soils",
-        "Protect the pile when driven in expansive soils"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Consider a pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The subsoil properties from 10 – 30 m is Y = 18 kN/m³ and Cu = 90 KN/m². Using Meyerhof's method, the ultimate point Qp can be approximated to:",
-      "opts": [
-        "133 KN",
-        "333 KN",
-        "1033 KN",
-        "34 KN",
-        "170 KN"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "When determining the capacity of a group pile in clay, the equation ΣQu = n1 n2 (Qp + Qs) assumes:",
-      "opts": [
-        "The piles in the group act as a block (group)",
-        "The Piles in the group subjected to uplift pressure",
-        "The piles in the group undergo negative skin pressure",
-        "The piles in the group act as summation of the individual pile capacities",
-        "The Piles in the group subjected to moment in both directions"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "If the backfill carries a uniform surcharge q, then the lateral pressure at the depth of wall H is:",
-      "opts": [
-        "pa = Ka γz + Ka q",
-        "pa = Ka γz - Ka q",
-        "pa = Ka γz * Ka q",
-        "pa = Ka γz / Ka q",
-        "pa = Ka γz + q"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "In the field, for full mobilization of the point resistance (Qp), the pile tip must go through a displacement of:",
-      "opts": [
-        "8 to 20% of the pile width (or diameter)",
-        "10 to 25% of the pile width (or diameter)",
-        "10 to 50% of the pile width (or diameter)",
-        "25 to 50% of the pile width (or diameter)",
-        "10 to 15% of the pile width (or diameter)"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "When the wall restrained from moving, the lateral earth pressure on the wall at any depth is called the:",
-      "opts": [
-        "Passive earth pressure",
-        "active earth pressure",
-        "at-rest earth pressure",
-        "vertical pressure",
-        "none of the above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The coefficient of earth pressure at rest is represented as expression given by Jaky:",
-      "opts": [
-        "K0=1-sinφ",
-        "K0=sinφ",
-        "K0=1-cosφ",
-        "K0=cosφ",
-        "K0= tanφ"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The area of the pile group along the failure surface is equal to:",
-      "opts": [
-        "Perimeter × Area of cross section",
-        "Breadth × Length",
-        "Perimeter × Length",
-        "Perimeter / Length",
-        "Perimeter/area of cross section"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The settlement of a group of friction piles can be computed on the assumption that:",
-      "opts": [
-        "Clay is incompressible",
-        "Pile below the lower level is ignored",
-        "Bearing resistance is zero",
-        "All of the mentioned",
-        "None of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The pile load test should be performed on:",
-      "opts": [
-        "Working piles",
-        "Trial piles",
-        "Working and trial piles",
-        "Soil",
-        "None of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "In practice, the minimum center-to-center pile spacing, d, is:",
-      "opts": [
-        "2.5D",
-        "3D",
-        "3.5D",
-        "2D to 3D",
-        "2.5D to 3D"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "If the wall is prevented from moving, then the lateral pressure of the earth on the wall at any depth is called:",
-      "opts": [
-        "the Active earth pressure",
-        "the Passive earth pressure",
-        "the at-rest earth pressure",
-        "All of the mentioned",
-        "None of the mentioned"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "Different types of piles are used in practice, depending on:",
-      "opts": [
-        "load to be carried",
-        "soil conditions",
-        "location of the water table",
-        "the installation technique",
-        "All mentioned above"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "A concrete pile 15.24 m long having a cross section of 406 mm x 406 mm is fully embedded in a saturated clay layer for which γ= 19.02 kN/m³, and cu =76.7 kN/m². Use the λ method to estimate the skin friction:",
-      "opts": [
-        "194.86",
-        "294.86",
-        "394.86",
-        "494.86",
-        "594.86"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    },
-    {
-      "q": "The pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
-      "opts": [
-        "5 mm",
-        "10 mm",
-        "5 cm",
-        "10 cm",
-        "5-10 mm"
-      ],
-      "ans": 0,
-      "src": "2024-04-25"
-    }
-  ],
-  "exam5": [
+  "exam3": [
     {
       "q": "If the required factor of safety against sliding is not achieved, then the most practical choice is:",
       "opts": [
@@ -3295,6 +1971,1992 @@ const QUESTIONS = {
       ],
       "ans": 0,
       "src": "27-5-2024"
+    }
+  ],
+  "exam4": [
+    {
+      "q": "The dimensions of the proportioning retaining walls depends on:",
+      "opts": [
+        "Soil properties",
+        "Type of retaining wall",
+        "Theory used for lateral pressure calculations",
+        "Height of backfill",
+        "None of the above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The minimum factor of safety for a retaining wall to avoid overturning is:",
+      "opts": [
+        "1.0",
+        "1.5",
+        "2.0",
+        "2.5",
+        "3.0"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "H piles is considered a:",
+      "opts": [
+        "No displacement piles",
+        "highly displacement pile",
+        "low displacement pile",
+        "cast in situ pile",
+        "none of the options is correct"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The overturning force of a retaining wall is:",
+      "opts": [
+        "Horizontal active force",
+        "Vertical active force",
+        "Passive force",
+        "Weight of the retaining wall",
+        "Weight of soil"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The soil backfill directly above the base of a retaining wall causes:",
+      "opts": [
+        "Overturning",
+        "Sliding",
+        "Bearing capacity failure",
+        "All of the above",
+        "None of the above"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Sheet piles are used to build a continuous wall to:",
+      "opts": [
+        "Highways",
+        "Waterfront structures",
+        "Towers",
+        "Multistory-buildings",
+        "Trusses"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "In cantilever sheet piles, a special care should be taken to:",
+      "opts": [
+        "Soil properties",
+        "Height of sheet pile",
+        "Fluctuation of water table",
+        "Sheet pile material",
+        "None of the above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Piles are driven into granular soil to achieve proper compaction of soil. These piles are called:",
+      "opts": [
+        "compaction piles",
+        "batter piles",
+        "Both a and b",
+        "Belled piles",
+        "not above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The Rankine active earth pressure coefficient for a soil with Ø = 0 is:",
+      "opts": [
+        "zero",
+        "1",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Sheet-pile walls:",
+      "opts": [
+        "need dewatering of the site",
+        "do not need dewatering of the site",
+        "do not used for waterfront structures",
+        "all of the above",
+        "none of the above"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The critical surface of sliding is:",
+      "opts": [
+        "The failure surface along which the minimum factor of safety is obtained",
+        "The failure surface along which the larger factor of safety is obtained",
+        "The failure surface along which the maximum factor of safety is obtained",
+        "Failure surface at a depth of about 1.5 times the width of base slab of the retaining",
+        "None of the above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "A retaining wall may fail in:",
+      "opts": [
+        "overturn about its toe",
+        "slide along its base",
+        "fail due to the loss of bearing capacity of the soil",
+        "fail due to excessive settlement",
+        "All of above"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "A minimum factor of safety against sliding is recommended as:",
+      "opts": [
+        "2",
+        "2.5",
+        "1.5",
+        "3",
+        "4"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The pre-stressed concrete piles as compared to pre-cast and reinforced concrete piles:",
+      "opts": [
+        "are lesser in weight",
+        "have high load carrying capacity",
+        "are extremely durable",
+        "are Highly length",
+        "All of the mentioned"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Design of gravity wall aims to:",
+      "opts": [
+        "resist excessive settlement",
+        "safe against sliding",
+        "safe against overturning",
+        "safe bearing capacity",
+        "All of the mentioned"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "On designing retaining walls it is necessary to take care of ____ exerted by soil mass:",
+      "opts": [
+        "Erosion",
+        "lateral pressure",
+        "Surcharge",
+        "vertical stress",
+        "point load"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "What is the primary function of a retaining wall?",
+      "opts": [
+        "To provides lateral support for a vertical or near-vertical slope of soil",
+        "To provide horizontal slope",
+        "To prevent erosion of a slope",
+        "To enhance the aesthetics of a slope",
+        "None of the above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Wooden sheet piles are used only for:",
+      "opts": [
+        "temporary, light structures that are above the water table",
+        "permanent, light structures that are above the water table",
+        "temporary, heavy structures that are above the water table",
+        "temporary, light structures that are under the water table",
+        "none of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "A retaining wall 5m high; unit weight of soil =17.6 kN/m³; Ka =0.2444. Calculate the Coulomb's active force per unit length of the wall.",
+      "opts": [
+        "53.77 kN/m",
+        "67.0 kN/m",
+        "30.0 kN/m",
+        "101.0 kN/m",
+        "No one of above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "What is the minimum diameter is specified for Class C timber piles used permanently under the water table?",
+      "opts": [
+        "150 mm",
+        "330 mm",
+        "200 mm",
+        "356 mm",
+        "305 mm"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "When the soil conditions near the surface are poor, ............ must be used:",
+      "opts": [
+        "Shallow foundations",
+        "Deep foundation",
+        "Both a and b",
+        "earth structure",
+        "Not above"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The relation between Kp and Ka is ____:",
+      "opts": [
+        "Kp=Ka",
+        "Kp=1+Ka",
+        "Kp=1-Ka",
+        "Kp=1/Ka",
+        "Kp=1/(1-Ka)"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "What are the common shapes of sheet-pile sections?",
+      "opts": [
+        "Circular and triangular",
+        "Z, deep arch, low arch, or straight web",
+        "Square and rectangular",
+        "Elliptical and hexagonal",
+        "deep arch and Z"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Cantilever retaining walls is suitable for retaining backfill about __:",
+      "opts": [
+        "8m",
+        "12m",
+        "2m",
+        "4m",
+        "Any height"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Compared to dry backfill, submerged backfill will exert ---------:",
+      "opts": [
+        "same earth pressure",
+        "less earth pressure",
+        "more earth pressure",
+        "difficult to tell",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The shear key is provided to ----------:",
+      "opts": [
+        "Avoid friction behind the wall",
+        "Improve appearance",
+        "Increase passive resistance",
+        "All of the above",
+        "None of the above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Cast-in-place piles (or bored piles) is considered to be:",
+      "opts": [
+        "non-displacement piles",
+        "high displacement piles",
+        "low displacement piles",
+        "No one of above",
+        "All of above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The wall friction of retaining wall:",
+      "opts": [
+        "Decreases active earth pressure but increases passive earth pressure",
+        "Decreases passive earth pressure but increases active earth pressure",
+        "decrease both active and passive earth pressure",
+        "increases both active and passive earth pressure",
+        "None of the above"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "When determining the capacity of a group pile in clay, the equation ΣQu=n1 n2 (Qp+Qs) assumes:",
+      "opts": [
+        "The piles in the group act as a block (group)",
+        "The Piles in the group subjected to uplift pressure",
+        "The piles in the group undergo negative skin pressure",
+        "The piles in the group act individually and the total capacity is the summation of the individual pile capacities",
+        "The Piles in the group subjected to moment in both directions"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The best Sheet-pile walls for retaining a soil cut deeper than 6 m is:",
+      "opts": [
+        "Anchored sheet pile",
+        "Cantilever sheet pile",
+        "Both A and B",
+        "Neither A nor B",
+        "Secant pile"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "When the soil is at rest condition, the wall tend to ------------:",
+      "opts": [
+        "Move towards the supported soil",
+        "Move away from the supported soil",
+        "Still without movement",
+        "Have excessive settlement",
+        "Have shear failure"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The group efficiency of driven pile group in sand at a close spacing may be:",
+      "opts": [
+        "Equal to 1",
+        "Well below 1",
+        "Greater than 1",
+        "below 0.5",
+        "None of above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Vibratory pile is effective with ................:",
+      "opts": [
+        "Precast piles",
+        "Bored piles",
+        "Timber piles",
+        "Steel piles",
+        "All of the mentioned"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The Coefficient of passive pressure (Kp) is------------------if the Coefficient of active pressure (Ka) is 0.25:",
+      "opts": [
+        "0.33",
+        "4.0",
+        "0.25",
+        "0.5",
+        "1"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "A cantilever sheet pile derives its stability from:",
+      "opts": [
+        "lateral resistance of soil",
+        "self-weight",
+        "the dead man",
+        "the anchor rods",
+        "surcharge"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "How is the base-level bending moment of a cantilever retaining wall expressed as a function of its height H?",
+      "opts": [
+        "H",
+        "H/2",
+        "H/3",
+        "H/6",
+        "Undefined"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Which one of the following is the correct assumption of Rankine's theory?",
+      "opts": [
+        "The soil mass is infinite",
+        "The soil mass is non homogeneous",
+        "The soil mass is cohesive",
+        "The ground surface is a plane which may be horizontal or inclined",
+        "All of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The active earth pressure of a soil is proportional to (where Ø is the angle of friction of the soil):",
+      "opts": [
+        "tan (45° - Ø)",
+        "tan (45° + Ø)",
+        "tan² (45° - Ø/2)",
+        "tan² (45° + Ø/2)",
+        "None of the above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The common types of retaining wall may be classified as follows:",
+      "opts": [
+        "Gravity retaining walls",
+        "Semi-gravity retaining walls",
+        "Cantilever retaining walls",
+        "Counterfort retaining walls",
+        "All the mentioned"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The movement of soil under the action of load can be prevented by confining the ground by use of:",
+      "opts": [
+        "Steel pile",
+        "Concrete pile",
+        "Timber pile",
+        "Sheet pile",
+        "None of the above"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The intensity of the active pressure for sheet piles at a depth Z = L₁ is:",
+      "opts": [
+        "0.5 γ L₁ Ka",
+        "γ L₁ Ka",
+        "2 γ L₁ Ka",
+        "γ L₁ Kp",
+        "0.5 γ L₁ Kp"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Obtaining the maximum moment (Mmax) per unit length of the wall at shear equal to:",
+      "opts": [
+        "Maximum Force",
+        "Minimum Force",
+        "Zero",
+        "The passive earth pressure",
+        "The active earth pressure"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Related to Stability of RW, Which of the following does NOT represent a potential failure mode for a retaining wall?",
+      "opts": [
+        "Bearing capacity failure of the foundation soil",
+        "Wall cracking due to thermal expansion",
+        "Excessive settlement due to weak soil layer",
+        "Shear failure within the foundation soil adjacent to the wall",
+        "Sliding along the base due to insufficient friction"
+      ],
+      "ans": 1,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "If the desired factor of safety against sliding is not met, which strategy is NOT a suitable solution?",
+      "opts": [
+        "Increase base slab width",
+        "Use a key to the base slab",
+        "Use a deadman anchor",
+        "Reduce the backfill angle",
+        "All of the above"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The maximum point resistance will not be mobilized until the tip of the pile has moved about:",
+      "opts": [
+        "(5 to 10%) D",
+        "(15 to 25%) D",
+        "(10 to 25%) D",
+        "(7 to 25%) D",
+        "(10 to 20%) D"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "In contrast to the construction of other types of retaining walls, the building of sheet-pile walls does not usually require ---------------- of the site:",
+      "opts": [
+        "soaking",
+        "defreezing",
+        "polluting",
+        "sinking",
+        "dewatering"
+      ],
+      "ans": 4,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "What is the equation for the ultimate load-carrying capacity of a pile?",
+      "opts": [
+        "Qu = Qp - Qs",
+        "Qp = Qu + Qs",
+        "Qs = Qu + Qp",
+        "Qu = Qp + Qs",
+        "none of them"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The factor that is responsible for inclination of resultant pressure to the retaining wall is:",
+      "opts": [
+        "Frictional force",
+        "Surcharge",
+        "Earth pressure",
+        "Weight of the wall",
+        "All of the mentioned"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "When there is no stiff stratum within a reasonable depth:",
+      "opts": [
+        "Qu= Qp + Qs",
+        "Qu= Qp",
+        "Qu= Qs",
+        "all of the mentioned",
+        "none of the mentioned"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "A sheet pile subjected to a concentrated horizontal load at its top is known as:",
+      "opts": [
+        "Cantilever sheet pile",
+        "Diaphragm sheet pile",
+        "Free cantilever sheet pile",
+        "Anchored sheet pile walls",
+        "All of the above"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The point resistance (Qp) of a driven square pile of width 0.4 m in saturated clay that has a cohesion of 100 kN/m² equal to ---------:",
+      "opts": [
+        "90 ton",
+        "80 ton",
+        "144 ton",
+        "900 kN",
+        "1224 kN"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The pressure distribution diagram for earth pressure at rest is:",
+      "opts": [
+        "rectangular",
+        "circular",
+        "constant",
+        "triangular",
+        "square"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "Which statement is correct?",
+      "opts": [
+        "Ko>KP>Ka",
+        "Ko>KP>Ka",
+        "KP>Ko>Ka",
+        "Ka>KP>Ko",
+        "No one of above"
+      ],
+      "ans": 2,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "The coefficient of earth pressure at rest is represented as ________ expression given by Jaky:",
+      "opts": [
+        "ko=1-sinφ",
+        "ko=sinφ",
+        "ko=1-cosφ",
+        "ko=cosφ",
+        "ko= tanφ"
+      ],
+      "ans": 0,
+      "src": "2024-06-30"
+    },
+    {
+      "q": "What structure behavior implies the action of passive earth pressure?",
+      "opts": [
+        "The wall being under heavy loads",
+        "The wall inclining away from the soil",
+        "The wall contracting due to cold",
+        "The wall being pushed into the soil",
+        "The wall extending vertically"
+      ],
+      "ans": 3,
+      "src": "2024-06-30"
+    }
+  ],
+  "exam5": [
+    {
+      "q": "Reinforcement is included in concrete piles primarily to resist:",
+      "opts": [
+        "Shear stress during driving",
+        "Axial compression during service",
+        "Bending moment during pickup and transportation",
+        "Uplift forces from foundation settlements",
+        "Not above"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The factor of safety in piles generally used ranges from:",
+      "opts": [
+        "1 to 2",
+        "2 to 3",
+        "3 to 4",
+        "5 to 6",
+        "No one of above"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "In general, the settlement of pile group in saturated clay layer is .......... sandy layer:",
+      "opts": [
+        "equal",
+        "more than",
+        "less than",
+        "less or equal",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Piles are recommended in the following situations:",
+      "opts": [
+        "In weak ground conditions",
+        "For carrying lateral loads",
+        "In expansive or collapsible soil",
+        "For resisting uplift",
+        "All of above"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "For the equation f=kσ' tanδ', K is ............. for great depth:",
+      "opts": [
+        "Rankine active earth pressure coefficient",
+        "Rankine passive earth pressure coefficient",
+        "At-rest pressure coefficient",
+        "all of the mentioned",
+        "none of the mentioned"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "How do gravity retaining walls achieve stability?",
+      "opts": [
+        "They depend for stability on their own weight and any soil resting on the masonry",
+        "By relying on external braces",
+        "By using soil anchors",
+        "By incorporating steel reinforcement",
+        "None of the above"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The minimum tip diameter for Class B timber piles should not be less than:",
+      "opts": [
+        "150 mm",
+        "250 mm",
+        "305 mm",
+        "330 mm",
+        "356 mm"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The actual depth of penetration is ............................of the theoretical depth for cantilever sheet piling penetrating clay:",
+      "opts": [
+        "increased by 20% to 30%",
+        "increased by 40% to 60%",
+        "the same",
+        "reduced by 10%",
+        "increased by 10%"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Which of the following can be done to improve the factor of safety against sliding if the desired value is not met?",
+      "opts": [
+        "Increase the width of the base slab (heel of the footing)",
+        "Decrease the thickness of the base slab",
+        "Apply a tensile force at the top of the retaining wall",
+        "Shorten the cantilever arm of the retaining wall",
+        "Decrease the weight of the retaining wall"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The effect of cohesion on a soil is to ____:",
+      "opts": [
+        "reduce both active and passive earth pressure intensities",
+        "increase both active and passive earth pressure intensities",
+        "reduce active earth pressure intensity but to increase passive earth pressure intensity",
+        "increase active earth pressure intensity but to reduce passive earth pressure intensity",
+        "reduce active and passive earth pressure intensity"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "A 500 mm diameter and 20 m long concrete pile is driven into a sand where γ=18.5 kN/m³ and Ø=32°. The point loading of pile is ____:",
+      "opts": [
+        "4580 kN",
+        "496 kN",
+        "2870 kN",
+        "1970 kN",
+        "3560 kN"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "A retaining wall of height H with a smooth vertical back face supports a backfill inclined at an angle β with the horizontal. The backfill consists of cohesionless soil having an angle of internal friction φ. If the active lateral thrust acting on the wall is Pa, which one of the following statements is TRUE?",
+      "opts": [
+        "Pa acts at a height H/2 from the base of the wall and at an angle β with the horizontal",
+        "Pa acts at a height H/2 from the base of the wall and at an angle φ with the horizontal",
+        "Pa acts at a height H/3 from the base of the wall and at an angle β with the horizontal",
+        "Pa acts at a height H/3 from the base of the wall and at an angle φ with the horizontal",
+        "Pa acts at a height 2H/3 from the base of the wall and at an angle β with the horizontal"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "When structural load is heavy and/or soil having low bearing capacity for considerable depth, the suitable foundation for this situation is:",
+      "opts": [
+        "Shallow footings",
+        "Piles",
+        "Rafts",
+        "Wells or Piers",
+        "Combined footing"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "While driving a large number of piles in loose sand:",
+      "opts": [
+        "It is advantageous to follow a sequence of pile driving such that the inner piles are driven first and then proceed outwards",
+        "It is advantageous to follow a sequence of pile driving such that the piles near the periphery are driven first and inner piles are driven later",
+        "It is advantages to follow a sequence of pile driving such that alternatively inner and outer piles are driven",
+        "Driving of piles can be done in any random order",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The elastic compression ΔL of a pile can be calculated by the expression based on:",
+      "opts": [
+        "Terzaghi's theory",
+        "Hooke's law",
+        "Meyerhof's theory",
+        "Hiley's formula",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "At similar depth, the unit frictional resistance, f, is - Variation of the unit frictional resistance for different piles:",
+      "opts": [
+        "Higher in low displacement piles",
+        "Same in all pile types",
+        "Higher for high displacement piles",
+        "Higher for bored piles",
+        "Higher in H piles"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Nowadays, fiber reinforced polymer (FRP) composite piles are widely used for:",
+      "opts": [
+        "waterfront structures",
+        "Basements",
+        "Residential Building",
+        "Seismic Condition",
+        "None of the mention"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Connected or semi-connected ................are often used to build continuous walls for waterfront structures that range from small waterfront pleasure boat launching facilities to large dock facilities:",
+      "opts": [
+        "Steel piles",
+        "Concrete piles",
+        "Timber piles",
+        "Sheet piles",
+        "None of the mentioned"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "In prestressed precast piles, During casting of the piles, the cables are ..........pretensioned to about, and concrete is poured around them:",
+      "opts": [
+        "900 to 1300 MN/m²",
+        "600 to 800 MN/m²",
+        "500 to 700 MN/m²",
+        "1500 to 2000 MN/m²",
+        "None of the mention"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Based on Meyerhof SPT formula, the ratio of frictional resistance of low displacement pile to that of high displacement pile driven in the same soil is:",
+      "opts": [
+        "One fourth",
+        "One third",
+        "Two third",
+        "One fifth",
+        "One half"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The precast concrete piles are generally used for a maximum design load of about:",
+      "opts": [
+        "50 tones",
+        "60 tones",
+        "75 tones",
+        "80 tones",
+        "100 tones"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The piles that are used for protecting structures from ships and floating object is:",
+      "opts": [
+        "Anchor piles",
+        "Fender piles",
+        "Compaction piles",
+        "Batter piles",
+        "Sheet piles"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The minimum factor of safety against sliding for retaining wall would be:",
+      "opts": [
+        "1.5",
+        "2",
+        "2.5",
+        "3",
+        "3.5"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The most economical type of retaining wall used to retain a soil of height of 10 m is:",
+      "opts": [
+        "Gravity wall",
+        "Cantilever wall",
+        "Counterfort wall",
+        "Semi-gravity wall",
+        "Cantilever wall or Counterfort wall"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "When the piles are enlarged to provide anchorage against uplift. Such piles are known as:",
+      "opts": [
+        "belled or underreamed piles",
+        "batter piles",
+        "Both a and b",
+        "All above",
+        "not above"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "These piles may be divided into two broad categories: (a) cased and (b) uncased:",
+      "opts": [
+        "Cast-in-situ",
+        "Precast piles",
+        "Steel piles",
+        "Both a and b",
+        "not above"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "In friction piles, it is assumed that the entire load is transferred through the pile shaft in the form of friction or adhesion, with Qp is:",
+      "opts": [
+        "Qp > 0",
+        "Qp = 50% Qu",
+        "Qp = 0",
+        "Both a and b",
+        "Both b and c"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Related to Stability of RW, which of the following DOES NOT represent a potential failure mode for a retaining wall?",
+      "opts": [
+        "Bearing capacity failure of the foundation soil",
+        "Wall cracking due to thermal expansion",
+        "Excessive settlement due to weak soil layer",
+        "Shear failure within the foundation soil adjacent to the wall",
+        "Sliding along the base due to insufficient friction"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "In designing a retaining wall, Rankine's active earth pressure theory for stability checks involves drawing a vertical line through point located at...................:",
+      "opts": [
+        "Top of the stem",
+        "Edge of the toe",
+        "Center of the base slab",
+        "Bottom of the base slab",
+        "Edge of the heel of the base slab"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Deep shear failure in retaining walls can occur along a cylindrical surface as a result of the existence of a weak layer of soil underneath the wall within a depth of about ---- times the width of the base slab of the retaining wall:",
+      "opts": [
+        "1.5",
+        "2.0",
+        "2.5",
+        "3.0",
+        "4.0"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What method do many structural engineers often utilize to obtain group efficiency for friction piles, especially in sand?",
+      "opts": [
+        "Advanced computational simulations",
+        "Experimental field tests",
+        "Simplified analysis",
+        "Full-scale load testing",
+        "Finite element analysis"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The purpose of used the counterforts in Counterfort retaining walls is to reduce:",
+      "opts": [
+        "The shear and the bending moments",
+        "width",
+        "height",
+        "width and height",
+        "cost"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The efficiency of pile group depends upon:",
+      "opts": [
+        "Characteristic of pile",
+        "Spacing of pile",
+        "both of the above",
+        "Bearing capacity of soil",
+        "length of the pile"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "A uniform load of 50 kN/m² on a soil with unit weight 20 kN/m³ carried by a retaining wall is considered as an equivalent to an extra height of soil equal to:",
+      "opts": [
+        "1.5 m",
+        "2.0 m",
+        "2.25 m",
+        "2.5 m",
+        "2.75 m"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "During the active state of plastic equilibrium, the retaining wall moves:",
+      "opts": [
+        "towards the fill",
+        "away from the fill",
+        "does not change its position",
+        "remains in equilibrium",
+        "down ward"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The coefficient of earth pressure when the soil is at equilibrium:",
+      "opts": [
+        "σv /σh",
+        "σh /σv",
+        "σv × σh",
+        "σ1 / σ3",
+        "σh+σv"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "In point load piles:",
+      "opts": [
+        "the entire load is transferred through the pile shaft",
+        "the entire load is point resistance",
+        "the entire load is equally of (a) and (b)",
+        "neither (a) nor (b)",
+        "none of the above"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Ultimate bearing capacity of pile group increase when:",
+      "opts": [
+        "Increasing pile number",
+        "reduce pile number",
+        "increase soil cohesion",
+        "increase soil angle of internal friction",
+        "reducing soil cohesion"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "When selecting the type of retaining wall, the following factor is most important (select the INCORRECT answer):",
+      "opts": [
+        "Cost and aesthetic preference",
+        "The type of soil and water load behind the wall",
+        "The wall's color and texture",
+        "The wall's height and width",
+        "The weather conditions at the site"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "H-section piles are usually preferred on I-section beam:",
+      "opts": [
+        "Because their web and flange length are equal",
+        "Because their web thicknesses are longer than the flange thicknesses",
+        "Because their web and flange thicknesses are equal",
+        "Because their web thicknesses are smaller than the flange thicknesses",
+        "none of the above"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What is the definition of a retaining wall?",
+      "opts": [
+        "It is wall that provides lateral support for a vertical slop of soil",
+        "It is wall that provides lateral support for a horizontal slope of soil",
+        "It is wall that provides lateral support for a vertical or near vertical slope of soil",
+        "Both a, b",
+        "None of the above is correct"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What is the range of the factor ξ used in the elastic settlement equation for piles?",
+      "opts": [
+        "0.1 to 0.3",
+        "0.3 to 0.5",
+        "0.5 to 0.67",
+        "0.67 to 0.9",
+        "None of the above is correct"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The purpose of using a key to the base slab in retaining walls is:",
+      "opts": [
+        "Prevent overturning",
+        "Prevent sliding",
+        "Prevent bearing capacity failure",
+        "Prevent deep-seated shear failure",
+        "None of the above is correct"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The load test procedure requires the application of step loads on the piles and the measurement of settlement and is called:",
+      "opts": [
+        "The constant-rate-of-penetration test",
+        "cyclic loading",
+        "The load-controlled test",
+        "Rebound loading",
+        "No one of these"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The downward drag force exerted on a pile by the soil surrounding it is known as:",
+      "opts": [
+        "Negative Skin Friction",
+        "Friction force",
+        "Bearing force",
+        "Tension force",
+        "Compression force"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The wooden sheet piles usually used for:",
+      "opts": [
+        "temporary, heavy structures below the water table",
+        "permanent structures above the water table",
+        "temporary, light structures below the water table",
+        "temporary, light structures above the water table",
+        "permanent structures below the water table"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The typical thicknesses of steel sheet piles in the United States are:",
+      "opts": [
+        "15 to 18 mm",
+        "20 to 25 mm",
+        "30 to 35 mm",
+        "5 to 8 mm",
+        "10 to 13 mm"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The assumptions made when using the Rankine earth pressure theory for stability checks of a cantilever wall are:",
+      "opts": [
+        "Coulomb active condition along a vertical plane through the heel",
+        "No assumptions are made; it is based on empirical data",
+        "Rankine active condition along a vertical plane through the heel",
+        "Rankine passive condition along a horizontal plane through the base",
+        "Coulomb passive condition along a horizontal plane through the base"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What happens at the point of rotation in a cantilever sheet pile wall?",
+      "opts": [
+        "Active and passive earth pressures are equal",
+        "Hydrostatic pressure is maximized",
+        "The moment is at its peak",
+        "The wall moves upwards because it undergoes a moment reversal",
+        "The sheet pile experiences zero lateral pressure"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What distinguishes passive earth pressure from active earth pressure?",
+      "opts": [
+        "The direction of wall movement",
+        "The type of soil failure",
+        "The value of the earth pressure coefficient",
+        "All of the above",
+        "None of the above"
+      ],
+      "ans": 2,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The downward drag acting on a pile due to the movement of the surrounding soil is called:",
+      "opts": [
+        "Skin friction force",
+        "Negative skin friction force",
+        "Frictional force",
+        "Point bearing force",
+        "Tension force"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What type of pile is designed primarily to transfer load through skin friction?",
+      "opts": [
+        "End-bearing piles",
+        "Friction piles",
+        "Composite piles",
+        "Timber piles",
+        "Pile caps"
+      ],
+      "ans": 1,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "Steel, and precast concrete piles are generally:",
+      "opts": [
+        "Bored piles",
+        "End Bearing piles",
+        "Cast-in-situ piles",
+        "Driven piles",
+        "All of above"
+      ],
+      "ans": 3,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "What is the at-rest earth pressure?",
+      "opts": [
+        "The lateral earth pressure on a retaining wall when the wall is at failure",
+        "The lateral earth pressure on a retaining wall when the wall is pushed into the soil",
+        "The lateral earth pressure on a retaining wall when the wall is restrained from moving",
+        "The lateral earth pressure on a retaining wall when the wall tilts away from the soil",
+        "The lateral earth pressure on a retaining wall when the wall is at rest"
+      ],
+      "ans": 4,
+      "src": "2025-09-10"
+    },
+    {
+      "q": "The coefficient of active earth pressure is ______ than the coefficient of passive pressure:",
+      "opts": [
+        "less",
+        "greater",
+        "equal to",
+        "high",
+        "more"
+      ],
+      "ans": 0,
+      "src": "2025-09-10"
+    }
+  ],
+  "exam6": [
+    {
+      "q": "Pile foundation could be used when there is …… located at shallow depths.",
+      "opts": [
+        "soft clay",
+        "Medium sand",
+        "Stiff clay",
+        "Loess soil",
+        "Expansive soil"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The skin friction is fully mobilized when the pile settlement is equal to",
+      "opts": [
+        "15-20% of pile diameter",
+        "10-15% of pile diameter",
+        "10-25% of pile diameter",
+        "10-25 mm",
+        "10-15 mm"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The value of lambda (λ) in the determination of skin friction of piles depends on",
+      "opts": [
+        "Pile diameter",
+        "Pile embedded length",
+        "Undrained cohesion of the soil",
+        "Angle of internal friction of the soil",
+        "Method of construction of pile"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The pile cap would help with transformation of the load of the structure to the soil if the cap is in contact with the ground",
+      "opts": [
+        "True",
+        "False",
+        "Statement only valid for clay",
+        "Statement only valid for sand",
+        "Statement only valid for cast in-situ piles"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Piles can be divided into the following categories with the general descriptions for conventional",
+      "opts": [
+        "steel, concrete",
+        "timber, steel",
+        "concrete and composite piles",
+        "Both a and b",
+        "steel, concrete, timber, and composite piles"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "When necessary, steel piles are spliced by",
+      "opts": [
+        "welding or by riveting",
+        "Welding",
+        "Riveting",
+        "All above",
+        "Other than that"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Piles are structural members made of",
+      "opts": [
+        "steel material",
+        "Timber material",
+        "concrete material",
+        "composites material",
+        "All of the mentioned"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "An advantage of preferring bored piles is",
+      "opts": [
+        "The concrete is not liable to damage",
+        "Vibration caused by driving can be avoided",
+        "They need no storage space",
+        "No requirement of special handling equipment",
+        "avoiding noise"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The limiting value of qL = 0.5 pa Nq* tanφ', the effective angle is for:",
+      "opts": [
+        "soil close to the surface",
+        "friction between the pile and the soil",
+        "soil friction angle of bearing stratum",
+        "average of the friction and bearing stratum",
+        "all of above"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In general, the settlement of pile group in saturated clay layer is ……… sandy layer",
+      "opts": [
+        "equal",
+        "more than",
+        "less than",
+        "less or equal",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "During the casting of the precast piles, the cables are pretensioned to about",
+      "opts": [
+        "950 – 1450 MN/m²",
+        "800 – 1300 MN/m²",
+        "900 – 1300 MN/m²",
+        "800 – 1400 MN/m²",
+        "950 –1350 MN/m²"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The piles or piers supporting the tower legs must be designed for",
+      "opts": [
+        "compressive forces",
+        "tension forces",
+        "compressive and tension forces",
+        "shear forces",
+        "none of the mentioned"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The minimum tip diameter for Class B timber piles should not be less than",
+      "opts": [
+        "150 mm",
+        "250 mm",
+        "305 mm",
+        "330 mm",
+        "356 mm"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What is negative skin friction?",
+      "opts": [
+        "A downward drag force exerted on a pile by the soil",
+        "A vertical force exerted on a pile by the soil",
+        "An upward force exerted on a pile by the soil",
+        "A lateral force exerted on a pile by the soil",
+        "None of the above"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The maximum load which can be carried by a pile is defined as its",
+      "opts": [
+        "Ultimate load carrying capacity",
+        "Ultimate bearing resistance",
+        "Ultimate bearing capacity",
+        "Ultimate pile capacity",
+        "All of the mentioned"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What minimum butt diameter is specified for Class C timber piles used permanently under the water table?",
+      "opts": [
+        "150 mm",
+        "330 mm",
+        "200 mm",
+        "356 mm",
+        "305 mm"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Which type of composite piles are increasingly used for waterfront structures?",
+      "opts": [
+        "Simple cast-in-place concrete piles",
+        "Timber-and-concrete composite piles",
+        "Metal strap composite piles",
+        "Steel-and-timber composite piles",
+        "Fiber reinforced polymer composite piles"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Which type of piles are referred to as no displacement piles?",
+      "opts": [
+        "H-piles and open-ended pipe piles",
+        "Piles advanced by partial augering",
+        "Steel sheet piles",
+        "Prestressed concrete piles",
+        "Cast-in-place (or bored) piles"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Underreamed piles are piles with enlargement bottom to increase the pile resistance against ……",
+      "opts": [
+        "Corrosive",
+        "Tilting",
+        "Lateral force",
+        "Uplift",
+        "Sinking"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Why are steel H-section piles preferred over I-section beams?",
+      "opts": [
+        "H-section piles are more visually appealing",
+        "I-section beams have limited sizes",
+        "H-section piles resist corrosion better",
+        "I-section beams are more expensive",
+        "H-section piles have equal web and flange thicknesses"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "A concrete bored pile of (750mm) diameter can reach its maximum point resistance when its tip settlement reach ……",
+      "opts": [
+        "75 mm",
+        "187.5 mm",
+        "262.5 mm",
+        "300 mm",
+        "10 mm"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The technique of the pile load test in which the load is applied in increments equal to 25% of the design load until reaching the maximum test load, is called ……",
+      "opts": [
+        "Load-controlled test",
+        "Constant rate of penetration test",
+        "Repeated loading test",
+        "Cyclic loading test",
+        "Constant-movement increment test"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The downward drag force exerted on a pile by the soil surrounding it until reaching its maximum point resistance is called ……",
+      "opts": [
+        "Skin friction",
+        "Negative skin friction",
+        "Frictional force",
+        "All of the above",
+        "None of the mentioned"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The negative skin friction on a pile develops when",
+      "opts": [
+        "The soil in which it is driven is sandy soil",
+        "The soil surrounding the pile settles more than the pile",
+        "The ground water table rises",
+        "The soil near the tip is clay",
+        "All of the above"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What is the best hammer type for precast piles to be driven near a hospital?",
+      "opts": [
+        "Impact hammer",
+        "Vibratory hammer",
+        "Dropped hammer",
+        "Hand operated hammer",
+        "All of the above"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The downward drag force acting on a pile due to the movement of the surrounding is called ……",
+      "opts": [
+        "Skin friction",
+        "Negative skin friction",
+        "Frictional force",
+        "End bearing",
+        "None of the mentioned"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Negative skin friction on piles",
+      "opts": [
+        "Is caused due to relative settlement of the soil",
+        "Is caused in soft clays",
+        "Decreases the pile capacity",
+        "Is caused due to lowering of water table",
+        "All of the above"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The pile load test should be performed on",
+      "opts": [
+        "Working pile",
+        "Test pile",
+        "a and b",
+        "Reaction pile",
+        "All of the mentioned"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In standard penetration test (SPT) for soil, the SPT number is:",
+      "opts": [
+        "Penetration depth of sampler in the soil for any given number of blows",
+        "Number of blows required for 30 cm of penetration of sampler in the soil",
+        "Number of blows required for 20 cm of penetration of sampler in the soil",
+        "Number of blows required for 10 cm of penetration of sampler in the soil",
+        "None of the above"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What parameter plays a pivotal role in determining the efficiency of a pile group?",
+      "opts": [
+        "Length of the piles.",
+        "Depth of the groundwater table.",
+        "Number of piles in the group.",
+        "Soil cohesion.",
+        "Load-carrying capacity of individual piles."
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Usually for a group piles, piles caps are provided for which of the following reasons",
+      "opts": [
+        "Stop any infiltration of water from top",
+        "Spread loads to all piles",
+        "Arrest lateral displacement",
+        "Increase the load bearing capacity of each pile",
+        "decrease the load bearing capacity of each pile"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The factor of safety of uplift pressure",
+      "opts": [
+        "1.5-2",
+        "≥ 3",
+        "unified",
+        "more than 1",
+        "The more the better"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What factor determines the efficiency of a pile group?",
+      "opts": [
+        "Soil type",
+        "Pile diameter",
+        "Pile spacing",
+        "Interaction between adjacent piles",
+        "Depth of embedment"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "How do the piles within a group act according to the simplified analysis depending on their spacing within the group?",
+      "opts": [
+        "Independently and randomly",
+        "Either as a block or as individual piles",
+        "Always as individual piles",
+        "Only as a block",
+        "According to their depth in the soil"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What is the primary factor influencing elastic settlement of piles and pile groups?",
+      "opts": [
+        "Soil type",
+        "Pile material",
+        "Pile diameter",
+        "Load magnitude",
+        "Pile spacing"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Which of the following factors does NOT have a direct effect on the elastic settlement of a pile?",
+      "opts": [
+        "Diameter of the pile",
+        "Cohesion of the surrounding soil",
+        "Modulus of elasticity of the pile material",
+        "Length of the pile",
+        "Magnitude of the applied axial load"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Tension piles may be used beneath buildings to resist uplift from",
+      "opts": [
+        "hydrostatic pressure",
+        "structures over expansive soils",
+        "power transmission towers",
+        "all the above",
+        "no one of the above"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "A pile which obtains most of its load carrying capacity at the base of pile is known as",
+      "opts": [
+        "end bearing pile",
+        "friction pile",
+        "compaction pile",
+        "composite pile",
+        "None of these"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Piles must be driven to a certain depth where the expansive soil are present to",
+      "opts": [
+        "Resist swelling effect",
+        "To increase pile capacity",
+        "To prevent soil collapse",
+        "All the above points",
+        "None of the above points"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "When piles is driven into a thick deposit of soil the load applied to the pile head is transferred to the soil through",
+      "opts": [
+        "Pile tip",
+        "Pile shaft",
+        "Pile tip and shaft",
+        "pile interaction",
+        "None of the above points"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The minimum center-to-center pile spacing, d in the group piles is:",
+      "opts": [
+        "1.5 D",
+        "2.5 D",
+        "3.5 D",
+        "4.5 D",
+        "5.5 D"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In which conditions do steel piles require additional thickness to offset corrosion effects?",
+      "opts": [
+        "In sandy soils",
+        "In clay soils",
+        "In silty soils",
+        "In dry climates",
+        "In swamps and peats"
+      ],
+      "ans": 4,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "If the entire load is transferred to the soil through the pile tip, it is considered to be:",
+      "opts": [
+        "Point-bearing piles",
+        "Friction piles",
+        "Compaction piles",
+        "Batter piles",
+        "All of the above"
+      ],
+      "ans": 0,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "When there is no bedrock or stiff stratum at relatively short depth, the pile is called:",
+      "opts": [
+        "Point bearing pile",
+        "Friction pile",
+        "Plugged pile",
+        "Composite pile",
+        "Compaction pile"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Soils with a pH greater than ……… are not as corrosive to steel piles.",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The vibration caused during pile driving helps densify the soil around the pile. The zone of sand densification may be as much as:",
+      "opts": [
+        "1.5 times the pile diameter, in the sand surrounding the pile.",
+        "4.0 times the pile diameter, in the sand surrounding the pile.",
+        "3.0 times the pile diameter, in the sand surrounding the pile.",
+        "2.5 times the pile diameter, in the sand surrounding the pile.",
+        "2.0 times the pile diameter, in the sand surrounding the pile."
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "The maximum point resistance of the driven pile (30 cm x 30 cm) will not be mobilized until the tip of the pile has moved about ……………….",
+      "opts": [
+        "3 mm to 9 mm",
+        "3 cm",
+        "1 mm to 3 mm",
+        "2 cm",
+        "less than 3 mm"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Which type of pile load test applies a continuously increasing load to maintain a constant rate of penetration?",
+      "opts": [
+        "Load-controlled test",
+        "Cyclic loading test",
+        "Ultimate load test",
+        "Constant-rate-of-penetration test",
+        "Constant load test"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "What is the effect of negative skin friction on piles?",
+      "opts": [
+        "Increases load-bearing capacity",
+        "Reduces effective pile capacity",
+        "Eliminates the need for reinforcement",
+        "Increases lateral stability",
+        "Increase end bearing capacity"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "To estimate the critical depth conservatively, it would be",
+      "opts": [
+        "greater than 15D",
+        "equal 15D",
+        "less than 15D",
+        "all of the mentioned",
+        "none of the mentioned"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In clayey soils, the resistance to applied load is caused by:",
+      "opts": [
+        "skin friction and cohesion",
+        "skin friction only",
+        "cohesion only",
+        "skin friction and adhesion",
+        "adhesion only"
+      ],
+      "ans": 3,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "If a group efficiency η = 0.75 and the sum of individual pile capacities is 4000 kN, the group ultimate capacity is:",
+      "opts": [
+        "2500 kN",
+        "3000 kN",
+        "3200 kN",
+        "4000 kN",
+        "5333 kN"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In a friction pile installed in uniform sand, increasing pile diameter while keeping length constant will primarily increase:",
+      "opts": [
+        "Point resistance only",
+        "Shaft resistance only",
+        "Both shaft and point resistance significantly",
+        "Neither shaft nor point resistance",
+        "Negative skin friction"
+      ],
+      "ans": 2,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "In uplift (tension) piles, resistance is mainly provided by:",
+      "opts": [
+        "Point bearing only",
+        "Shaft resistance and pile self-weight",
+        "Passive earth pressure at tip",
+        "Water pressure",
+        "Group efficiency"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
+    },
+    {
+      "q": "Factory-applied epoxy coatings are mainly used on steel piles to:",
+      "opts": [
+        "Increase load capacity",
+        "Reduce corrosion of steel",
+        "Decrease pile length",
+        "Reduce installation time",
+        "Improve appearance"
+      ],
+      "ans": 1,
+      "src": "دور اول 2026"
     }
   ]
 };
