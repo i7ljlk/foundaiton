@@ -789,48 +789,48 @@
           <div class="exam-card" onclick="startExam('exam1')">
             <div class="card-left">
               <span class="year-badge">25-4-2024</span>
-              <h3>أسئلة وزاري محلولة</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور أول 2024 (25 نيسان)</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
           <div class="exam-card" onclick="startExam('exam2')">
             <div class="card-left">
               <span class="year-badge">12-5-2024</span>
-              <h3>أسئلة وزاري محلولة</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور أول 2024 (النهائي)</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
           <div class="exam-card" onclick="startExam('exam3')">
             <div class="card-left">
               <span class="year-badge">27-5-2024</span>
-              <h3>أسئلة وزاري محلولة</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور أول 2024 (التقويمي)</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
           <div class="exam-card" onclick="startExam('exam4')">
             <div class="card-left">
               <span class="year-badge">30-6-2024</span>
-              <h3>أسئلة وزاري محلولة</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور ثاني 2024</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
           <div class="exam-card" onclick="startExam('exam5')">
             <div class="card-left">
               <span class="year-badge">10-9-2025</span>
-              <h3>أسئلة وزاري محلولة</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور ثاني 2025</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
           <div class="exam-card" onclick="startExam('exam6')">
             <div class="card-left">
               <span class="year-badge">2-6-2026</span>
-              <h3>دور اول 2026</h3>
-              <p class="q-count">اضغط للبدء</p>
+              <h3>أسئلة دور أول 2026</h3>
+              <p class="q-count">55 سؤال • اضغط للبدء</p>
             </div>
             <div class="card-right">➔</div>
           </div>
@@ -949,6 +949,8 @@
     const feedbackIcon = document.getElementById('feedback-icon');
     const feedbackText = document.getElementById('feedback-text');
 
+    let currentExamType = 'all';
+
     // خلط المصفوفة
     function shuffleArray(array) {
       let curId = array.length;
@@ -962,7 +964,63 @@
       return array;
     }
 
+    // خلط خيارات السؤال الواحد وتتبع موقع الإجابة الصحيحة الجديد
+    function shuffleQuestionOptions(q) {
+      // الأسئلة التي تذكر نصياً خيارات بالحروف مثل "Both a and b" يتم الحفاظ على ترتيب خياراتها لتظل صحيحة منطقياً
+      const hasLetterRef = q.opts.some(opt => 
+        /\b(both|between|neither)\s+[a-eA-E]\b/i.test(opt) || 
+        /\b[a-eA-E]\s+(and|or)\s+[a-eA-E]\b/i.test(opt) ||
+        /\ba and b\b/i.test(opt)
+      );
+
+      if (hasLetterRef) {
+        return {
+          q: q.q,
+          opts: [...q.opts],
+          ans: q.ans,
+          src: q.src
+        };
+      }
+
+      // تجهيز الخيارات مع تحديد الإجابة الصحيحة
+      let items = q.opts.map((opt, idx) => {
+        // تحسين العبارات التي تحتوي على "above" لتكون مناسبة منطقياً في أي موقع تظهر فيه (A, B, C, D, E)
+        let cleanText = opt
+          .replace(/\bAll of the above is correct\b/gi, 'All options are correct')
+          .replace(/\bNone of the above is correct\b/gi, 'None of the options is correct')
+          .replace(/\bAll of the above\b/gi, 'All options are correct')
+          .replace(/\bNone of the above\b/gi, 'None of the options is correct')
+          .replace(/\bAll of the mentioned\b/gi, 'All mentioned options are correct')
+          .replace(/\bNone of the mentioned\b/gi, 'None of the options is correct')
+          .replace(/\bAll above\b/gi, 'All options are correct')
+          .replace(/\bnot above\b/gi, 'None of the options')
+          .replace(/\bNo one of above\b/gi, 'None of the options')
+          .replace(/\bNone of these\b/gi, 'None of the options');
+
+        return {
+          text: cleanText,
+          isCorrect: idx === q.ans
+        };
+      });
+
+      // خلط الخيارات عشوائياً بخوارزمية Fisher-Yates
+      for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = items[i];
+        items[i] = items[j];
+        items[j] = tmp;
+      }
+
+      return {
+        q: q.q,
+        opts: items.map(x => x.text),
+        ans: items.findIndex(x => x.isCorrect),
+        src: q.src
+      };
+    }
+
     function startExam(type) {
+      currentExamType = type;
       let allQ = [];
       if (type === 'all') {
         Object.values(QUESTIONS).forEach(arr => {
@@ -977,7 +1035,9 @@
         return;
       }
 
-      currentQuiz = shuffleArray(allQ);
+      // خلط ترتيب الأسئلة + خلط خيارات كل سؤال عشوائياً مع تتبع الإجابة الصحيحة
+      const shuffledQuestions = shuffleArray(allQ);
+      currentQuiz = shuffledQuestions.map(q => shuffleQuestionOptions(q));
       currentQuestionIndex = 0;
       score = 0;
       
@@ -985,6 +1045,20 @@
       resultScreen.style.display = 'none';
       quizScreen.style.display = 'block';
       
+      const examTitles = {
+        'exam1': 'أسئلة دور أول 2024 (25 نيسان)',
+        'exam2': 'أسئلة دور أول 2024 (النهائي)',
+        'exam3': 'أسئلة دور أول 2024 (التقويمي)',
+        'exam4': 'أسئلة دور ثاني 2024',
+        'exam5': 'أسئلة دور ثاني 2025',
+        'exam6': 'أسئلة دور أول 2026',
+        'all': 'اختبار شامل (جميع الأدوار)'
+      };
+      const titleEl = document.getElementById('quiz-title');
+      if (titleEl && examTitles[type]) {
+        titleEl.textContent = examTitles[type];
+      }
+
       updateUI();
       loadQuestion();
     }
@@ -1002,7 +1076,7 @@
       
       optionsListEl.innerHTML = '';
       
-      const letters = ['أ', 'ب', 'ج', 'د', 'هـ', 'و'];
+      const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
       
       qData.opts.forEach((opt, index) => {
         const btn = document.createElement('button');
@@ -1106,7 +1180,7 @@
     }
 
     function restartExam() {
-      startExam('all');
+      startExam(currentExamType || 'all');
     }
 
     function goHome() {

@@ -9,8 +9,8 @@ const QUESTIONS = {
         "Class B",
         "Class D"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "For driven piles in sand, the vibration caused during pile driving helps densify the soil around the pile. The zone of sand densification may be as much as:",
@@ -21,8 +21,8 @@ const QUESTIONS = {
         "4.5 times the pile diameter",
         "More than 4.5 times the pile diameter"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Belled or under-reamed piles are:",
@@ -34,7 +34,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Why are bridge abutments and piers usually constructed over pile foundations?",
@@ -45,8 +45,8 @@ const QUESTIONS = {
         "To prevent damage from expansive soil",
         "Preventing uplift"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The maximum frictional resistance along the pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
@@ -58,7 +58,7 @@ const QUESTIONS = {
         "4-6 mm"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The main function of retaining walls is:",
@@ -69,8 +69,8 @@ const QUESTIONS = {
         "lateral support for earth structures",
         "All of the mentioned"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "A 3 m high retaining wall is supporting a saturated sand (saturated due to capillary action) of bulk density 18 kN/m³ and angle of shearing resistance 30°. The change in magnitude of active earth pressure at the base due to rise in ground water table from the base of the footing to the ground surface shall (γw = 10 kN/m³):",
@@ -82,7 +82,7 @@ const QUESTIONS = {
         "Increase by 40 kN/m²"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "If the angle of internal friction decreases, then Ka:",
@@ -94,7 +94,7 @@ const QUESTIONS = {
         "Does not change"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Generally the vertical displacement of the pile which is required to mobilize full point resistance is that required to mobilize full skin friction:",
@@ -106,7 +106,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The point resistance (Qp) for a single concrete pile with a length of 6 m, diameter of 0.5 m and embedded in soil with undrained cohesion of 41 kPa is equal to:",
@@ -117,8 +117,8 @@ const QUESTIONS = {
         "72 kN",
         "None of the above is correct"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The N60 used in Briaud (1985) correlation to predict tip resistance of pile is:",
@@ -129,8 +129,8 @@ const QUESTIONS = {
         "the average of the values of 10 to 25% of D above and below pile tip",
         "None of the above is correct"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The principle of critical embedded depth of piles exists for the case of:",
@@ -141,8 +141,8 @@ const QUESTIONS = {
         "piles embedded in collapsible soil",
         "Piles embedded in loess"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Ko of a normally consolidated soil is typically in the range of:",
@@ -154,7 +154,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The frictional resistance of pile in sand varies with depth till a critical depth and then it will be constant downward to the end of the pile. This depth equals:",
@@ -165,8 +165,8 @@ const QUESTIONS = {
         "(22-25) D",
         "(25-30) D"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Gravity retaining wall type is suitable for retaining backfill upto:",
@@ -177,8 +177,8 @@ const QUESTIONS = {
         "Any height",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What factor influences the nature of the variation of unit skin friction (f) in the field?",
@@ -189,8 +189,8 @@ const QUESTIONS = {
         "Installation method",
         "Pile material"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What condition warrants the use of point bearing piles?",
@@ -201,8 +201,8 @@ const QUESTIONS = {
         "When the load is evenly distributed along the pile length",
         "When using compaction piles becomes cost-effective"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "How does increasing the number of piles in a group typically affect elastic settlement?",
@@ -214,7 +214,7 @@ const QUESTIONS = {
         "It reduces settlement due to increased lateral support between piles"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The value of σ'h at failure for rest, active, and passive state is as follows:",
@@ -225,8 +225,8 @@ const QUESTIONS = {
         "(σ'h)Passive < (σ'h) Active < (σ'h) rest",
         "(σ'h) Active > (σ'h) rest > (σ'h) Passive"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "A wall retained a soil of depth of 5 m. if the water table located at depth 2 m below ground surface. for undrained condition, the pore water pressure exerted on the wall is: (Φ=30°, γw = 10 kN/m³, γt = 17kN/m³, and γSat = 19 kN/m³):",
@@ -237,8 +237,8 @@ const QUESTIONS = {
         "90 kN/m",
         "27 kN/m"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The most common type of retaining walls is:",
@@ -249,8 +249,8 @@ const QUESTIONS = {
         "Counterfort retaining walls",
         "All of above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What is the main contributor to downward drag forces known as negative skin friction?",
@@ -261,8 +261,8 @@ const QUESTIONS = {
         "Friction reduction between soil and pile",
         "Soil consolidation"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What alteration to the retaining wall structure can be made in addition to elongating the base slab to improve the factors of safety against sliding?",
@@ -273,8 +273,8 @@ const QUESTIONS = {
         "Connect the wall to an adjacent more stable structure",
         "Add a counterfort to the retaining wall"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Which type of piles are referred to as nondisplacement piles?",
@@ -285,8 +285,8 @@ const QUESTIONS = {
         "Prestressed concrete piles",
         "Cast-in-place (or bored) piles"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What is the nature of variation of the lateral pressure with the magnitude of wall movement?",
@@ -297,8 +297,8 @@ const QUESTIONS = {
         "The wall movement required to mobilize the at-rest state is equal to that required to mobilize the active state",
         "The wall movement required to mobilize the active state is less than that required to mobilize the passive state"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "What are compaction piles?",
@@ -309,8 +309,8 @@ const QUESTIONS = {
         "Piles driven into granular and cohesive soil to achieve proper compaction of soil close to the ground surface",
         "Piles driven into granular soil to achieve proper compaction of soil deep below the ground surface"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The downward drag acting on a pile due to the movement of the surrounding is called:",
@@ -321,8 +321,8 @@ const QUESTIONS = {
         "None of the mentioned",
         "Point bearing"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The wall movement required to mobilize the active state is __ than that required to mobilize the passive state:",
@@ -333,8 +333,8 @@ const QUESTIONS = {
         "alike",
         "very larger"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "One of the elastic settlement in pile foundation according to Vesic (1977), is the settlement of the pile due to:",
@@ -345,8 +345,8 @@ const QUESTIONS = {
         "the working load at the pile point",
         "the permissible bearing capacity"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The wall may tilt away from the soil that is retained. With sufficient wall tilt, a triangular soil wedge behind the wall will fail. The lateral pressure for this condition is referred to as:",
@@ -358,7 +358,7 @@ const QUESTIONS = {
         "none of these"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Pile foundations are structural member where the depth is __ than the width:",
@@ -369,8 +369,8 @@ const QUESTIONS = {
         "equal or less",
         "approximately less"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "A gravity retaining wall is shown in Figure using Rankine active pressure. Calculate The factor of safety against sliding. Use ΣV= 360.77 kN/m, PP= 186.59 kN/m, Ph= 126.65 kN/m:",
@@ -382,7 +382,7 @@ const QUESTIONS = {
         "F.S = 2"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Cast-in-place piles (or bored piles) literally cause no displacement and are known as:",
@@ -393,8 +393,8 @@ const QUESTIONS = {
         "Both a and b",
         "not above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The point bearing capacity, qp, of a pile in sand generally increases with the depth of embedment in the bearing stratum and reaches a maximum value at an embedment ratio of:",
@@ -405,8 +405,8 @@ const QUESTIONS = {
         "Both a and b",
         "Both b and c"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "When hard driving conditions are expected, such as driving through dense gravel, shale, or soft rock. Steel piles can be fitted with:",
@@ -417,8 +417,8 @@ const QUESTIONS = {
         "Paint coating",
         "Not above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The length of compaction piles depend on:",
@@ -429,8 +429,8 @@ const QUESTIONS = {
         "the angle friction",
         "Not above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Consider a Pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The groundwater table is located at a depth of 3 m from the ground surface. Estimate Qp by using Meyerhof's method (Cu at 10-30m = 90 kN/m²):",
@@ -441,8 +441,20 @@ const QUESTIONS = {
         "Qp ≈ 1300 kN",
         "Qp ≈ 1500 kN"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
+    },
+    {
+      "q": "At elastic settlement of piles the magnitude of ξ varies between:",
+      "opts": [
+        "0.50 to 0.60",
+        "0.50 to 0.67",
+        "0.57 to 0.65",
+        "0.57 to 0.67",
+        "0.55 to 0.65"
+      ],
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Concrete piles may be divided into two basic categories:",
@@ -454,7 +466,7 @@ const QUESTIONS = {
         "all of the mentioned"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The term γDNγ* may be dropped from the equation of ultimate resistance of pile because:",
@@ -465,8 +477,8 @@ const QUESTIONS = {
         "Nγ* is zero",
         "γ is large"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The main purpose of the shoes (Driving point) in steel piles is:",
@@ -477,8 +489,8 @@ const QUESTIONS = {
         "Protect the pile end from damage when driven in hard soils",
         "Protect the pile when driven in expansive soils"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Consider a pipe pile having an outside diameter of 457 mm. The embedded length of the pile in layered saturated clay is 20 m. The subsoil properties from 10 – 30 m is Y = 18 kN/m³ and Cu = 90 KN/m². Using Meyerhof's method, the ultimate point Qp can be approximated to:",
@@ -490,7 +502,7 @@ const QUESTIONS = {
         "170 KN"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "When determining the capacity of a group pile in clay, the equation ΣQu = n1 n2 (Qp + Qs) assumes:",
@@ -501,8 +513,8 @@ const QUESTIONS = {
         "The piles in the group act as summation of the individual pile capacities",
         "The Piles in the group subjected to moment in both directions"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "If the backfill carries a uniform surcharge q, then the lateral pressure at the depth of wall H is:",
@@ -514,7 +526,7 @@ const QUESTIONS = {
         "pa = Ka γz + q"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "In the field, for full mobilization of the point resistance (Qp), the pile tip must go through a displacement of:",
@@ -525,8 +537,8 @@ const QUESTIONS = {
         "25 to 50% of the pile width (or diameter)",
         "10 to 15% of the pile width (or diameter)"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "When the wall restrained from moving, the lateral earth pressure on the wall at any depth is called the:",
@@ -537,8 +549,8 @@ const QUESTIONS = {
         "vertical pressure",
         "none of the above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The coefficient of earth pressure at rest is represented as expression given by Jaky:",
@@ -550,7 +562,7 @@ const QUESTIONS = {
         "K0= tanφ"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The area of the pile group along the failure surface is equal to:",
@@ -561,8 +573,8 @@ const QUESTIONS = {
         "Perimeter / Length",
         "Perimeter/area of cross section"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The settlement of a group of friction piles can be computed on the assumption that:",
@@ -573,8 +585,8 @@ const QUESTIONS = {
         "All of the mentioned",
         "None of the mentioned"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The pile load test should be performed on:",
@@ -585,8 +597,8 @@ const QUESTIONS = {
         "Soil",
         "None of the mentioned"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "In practice, the minimum center-to-center pile spacing, d, is:",
@@ -598,7 +610,7 @@ const QUESTIONS = {
         "2.5D to 3D"
       ],
       "ans": 0,
-      "src": "2024-04-25"
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "If the wall is prevented from moving, then the lateral pressure of the earth on the wall at any depth is called:",
@@ -609,8 +621,8 @@ const QUESTIONS = {
         "All of the mentioned",
         "None of the mentioned"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "Different types of piles are used in practice, depending on:",
@@ -621,8 +633,8 @@ const QUESTIONS = {
         "the installation technique",
         "All mentioned above"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "A concrete pile 15.24 m long having a cross section of 406 mm x 406 mm is fully embedded in a saturated clay layer for which γ= 19.02 kN/m³, and cu =76.7 kN/m². Use the λ method to estimate the skin friction:",
@@ -633,8 +645,8 @@ const QUESTIONS = {
         "494.86",
         "594.86"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (25-4)"
     },
     {
       "q": "The pile shaft will be fully mobilized when the relative displacement between the soil and the pile is about:",
@@ -645,8 +657,8 @@ const QUESTIONS = {
         "10 cm",
         "5-10 mm"
       ],
-      "ans": 0,
-      "src": "2024-04-25"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (25-4)"
     }
   ],
   "exam2": [
@@ -660,7 +672,7 @@ const QUESTIONS = {
         "15-20% of pile diameter"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The principle of critical embedded depth of piles exists for the case of:",
@@ -672,7 +684,7 @@ const QUESTIONS = {
         "Piles embedded in loess"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The minimum center to center spacing between the pile is equal to:",
@@ -684,7 +696,7 @@ const QUESTIONS = {
         "20 of the pile diameter"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The negative skin friction on a pile develops when:",
@@ -696,7 +708,7 @@ const QUESTIONS = {
         "all the above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The Rankine passive earth pressure coefficient for a soil with Ø = 0 is:",
@@ -708,7 +720,7 @@ const QUESTIONS = {
         "-2"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Cased cast-in-situ piles are suitable for ______ conditions:",
@@ -720,7 +732,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The factor of safety in piles generally used ranges from:",
@@ -732,7 +744,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Uplift resistance of straight tension piles depends on:",
@@ -744,7 +756,7 @@ const QUESTIONS = {
         "bearing and weight of pile"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The type of foundations used to carry the loads of tall buildings, earth-retaining structures, transmission towers, and chimneys:",
@@ -756,7 +768,7 @@ const QUESTIONS = {
         "All of above"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The pile foundations are recommended when ---------:",
@@ -768,7 +780,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 4,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Which type of retaining wall depends on its own weight and any soil resting on the masonry for stability?",
@@ -780,7 +792,7 @@ const QUESTIONS = {
         "Piled retaining walls"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The piles or piers supporting the tower legs must be designed for:",
@@ -792,7 +804,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Note that the top of the stem of any retaining wall should not be less than about:",
@@ -804,7 +816,7 @@ const QUESTIONS = {
         "0.5 m"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Cast-in-place piles (or bored piles) literally cause no displacement and are known as:",
@@ -816,7 +828,7 @@ const QUESTIONS = {
         "not above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What minimum butt diameter is specified for Class C timber piles used permanently under the water table?",
@@ -828,7 +840,7 @@ const QUESTIONS = {
         "305 mm"
       ],
       "ans": 4,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is the recommended minimum center-to-center pile spacing shown in practice?",
@@ -840,7 +852,7 @@ const QUESTIONS = {
         "At least twice the height of the longest pile used"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is a common use for wooden sheet piles?",
@@ -852,7 +864,7 @@ const QUESTIONS = {
         "Foundation for high-rise buildings"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "A 500 mm diameter pile having a length of 18 m in a clay where γ= 20.0 kN/m3 and cu = 60 kN/m2. The point loading of pile is ____:",
@@ -864,7 +876,7 @@ const QUESTIONS = {
         "80 kN"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "A 12 m long concrete pile with 300 mm diameter is driven in sand (φ = 35°). The unit weight of sand is 18 kN/m3. Calculate the ultimate point Qp using Meyerhof's method. Consider Nq = 143:",
@@ -876,7 +888,7 @@ const QUESTIONS = {
         "510 kN"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Compared to dry backfill, submerged backfill will exert ---------:",
@@ -888,7 +900,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "If the backfill has a uniform surcharge of intensity q per unit area, the lateral pressure everywhere will increase by a quantity of ----------:",
@@ -900,7 +912,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Vesic 1969, stated an equation for the elastic settlement in a group piles, Sg(e) as:",
@@ -912,7 +924,7 @@ const QUESTIONS = {
         "1.5 √(Bg/D)"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "............retaining walls are made of reinforced concrete that consists of a thin stem and a base slab:",
@@ -924,7 +936,7 @@ const QUESTIONS = {
         "None of the mentioned"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Generally, when the pile is driven into a............., the load applied on the pile head is transferred to the soil through the pile tip (or point) and the pile shaft:",
@@ -936,7 +948,7 @@ const QUESTIONS = {
         "Saturated soil layer"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Consider a 500 mm diameter pile having a length of 18 m in a clay. Given: γ= 20.0 kN/m3 and cu =60 kN/m2. Use the α method to Determine the maximum allowable load (Qall) with FS = 3, α=0.62:",
@@ -948,7 +960,7 @@ const QUESTIONS = {
         "426 kN"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "At similar depths, the unit skin friction depends on:",
@@ -960,7 +972,7 @@ const QUESTIONS = {
         "None of these"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The area of the pile group along the failure surface is equal to:",
@@ -972,7 +984,7 @@ const QUESTIONS = {
         "Perimeter/area of cross section"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The settlement of a group of friction piles can be computed on the assumption that ................:",
@@ -984,7 +996,7 @@ const QUESTIONS = {
         "None of the mentioned"
       ],
       "ans": 4,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "-------piles are made by nailing three planks together, with the middle plank offset by 50 to 75 mm:",
@@ -996,7 +1008,7 @@ const QUESTIONS = {
         "Precast concrete sheet piles"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "A clay element subjected to one-dimensional consolidation does not undergo any lateral strains and hence is in:",
@@ -1008,7 +1020,7 @@ const QUESTIONS = {
         "it's depend"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The action of negative skin friction on the pile is to:",
@@ -1020,7 +1032,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "In a homogeneous soil mass where the ground level is horizontal, the ratio of the effective horizontal stress (σ'h) to the effective vertical stress (σ'v) at any point within the soil is a constant is known to be:",
@@ -1032,7 +1044,7 @@ const QUESTIONS = {
         "Non"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Excessive settlement may be accurate when a weak soil layer is located at a shallow depth — that is, within a depth of:",
@@ -1044,7 +1056,7 @@ const QUESTIONS = {
         "Not above"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "For a smooth vertical wall, Rankine's and Coulomb's expressions for Ka give .......... (δ=0):",
@@ -1056,7 +1068,7 @@ const QUESTIONS = {
         "The same values"
       ],
       "ans": 4,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "It is important to realize that the active earth pressure condition will be reached only if the wall is allowed to yield sufficiently. The necessary amount of outward displacement of the wall is about ---- for granular soil backfills, where H is the height of the wall:",
@@ -1068,7 +1080,7 @@ const QUESTIONS = {
         "0.00003H to 0.0004H"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Sometimes, water jetting or preboring is used to assist penetration through --------:",
@@ -1080,7 +1092,7 @@ const QUESTIONS = {
         "Silty soil"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is the primary factor influencing elastic settlement of piles and pile groups?",
@@ -1092,7 +1104,7 @@ const QUESTIONS = {
         "Pile spacing"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Cantilever sheet-pile walls are usually recommended for walls of moderate height about:",
@@ -1104,7 +1116,7 @@ const QUESTIONS = {
         "10 m"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "If the backfill carries a uniform surcharge q, then the lateral pressure at the depth of wall H is:",
@@ -1116,7 +1128,7 @@ const QUESTIONS = {
         "pa = Ka γz"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Steel piles are fitted with driving points or shoes to (select the INCORRECT statement):",
@@ -1128,7 +1140,7 @@ const QUESTIONS = {
         "Increase the pile's load capacity without touching the ground"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Why is a deadman anchor used at the stem of a retaining wall? (Select the INCORRECT answer):",
@@ -1140,7 +1152,7 @@ const QUESTIONS = {
         "To improve the drainage behind the wall"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "When a small amount of steel are used to minimize the size of a retaining wall, the walls referred as:",
@@ -1152,7 +1164,7 @@ const QUESTIONS = {
         "None of the above is correct"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The ultimate load-carrying capacity of a pile represents:",
@@ -1164,7 +1176,7 @@ const QUESTIONS = {
         "The load corresponding to the point where the load-settlement curve becomes vertical"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "In terms of load transfer, which statement is true regarding point bearing piles?",
@@ -1176,7 +1188,7 @@ const QUESTIONS = {
         "They are not suitable for weak soils"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Which type of pile transfers most of its load to a strong layer beneath weak soil?",
@@ -1188,7 +1200,7 @@ const QUESTIONS = {
         "Timber piles"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is a key benefit of using precast concrete sheet piles?",
@@ -1200,7 +1212,7 @@ const QUESTIONS = {
         "Limited to temporary use"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The direction of the resultant force Pa which act on a wall of inclined backfill is:",
@@ -1212,7 +1224,7 @@ const QUESTIONS = {
         "inclined at an angle = 0.75 x angle of inclination"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The equation for the safety factor against sliding in a gravity retaining wall using Coulomb's active earth pressure theory:",
@@ -1224,7 +1236,7 @@ const QUESTIONS = {
         "Factor of safety against sliding = vertical resisting capacity / vertical driving capacity"
       ],
       "ans": 3,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is the primary difference between Rankine and Coulomb's earth pressure theories?",
@@ -1236,7 +1248,7 @@ const QUESTIONS = {
         "Coulomb's theory applies only to cantilever walls"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "The conservative estimate of the critical depth would be:",
@@ -1248,7 +1260,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Cantilever retaining walls are most economical up to a height of:",
@@ -1260,7 +1272,7 @@ const QUESTIONS = {
         "12 m"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "Which of the following is a major advantage of sheet pile walls compared to gravity walls?",
@@ -1272,7 +1284,7 @@ const QUESTIONS = {
         "They have higher bearing capacity"
       ],
       "ans": 0,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "What is the primary purpose of using sheet piles in construction?",
@@ -1284,7 +1296,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "In the context of sheet-pile walls, what does the term 'dredge line' refer to?",
@@ -1296,7 +1308,7 @@ const QUESTIONS = {
         "The bottom edge of sheet pile"
       ],
       "ans": 2,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     },
     {
       "q": "A minimum factor of safety against sliding of retaining wall not less than:",
@@ -1308,7 +1320,7 @@ const QUESTIONS = {
         "3"
       ],
       "ans": 1,
-      "src": "2024-05-12"
+      "src": "أسئلة دور أول 2024 (12-5)"
     }
   ],
   "exam3": [
@@ -1321,8 +1333,8 @@ const QUESTIONS = {
         "Using a key to the base slab",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "When hard driving conditions are expected, such as driving through dense gravel, shale, or soft rock, steel piles can be fitted with:",
@@ -1333,8 +1345,8 @@ const QUESTIONS = {
         "Paint coating",
         "Not above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "These piles may be divided into two broad categories: (a) cased and (b) uncased:",
@@ -1346,7 +1358,7 @@ const QUESTIONS = {
         "not above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Techniques can be used for a pile load test:",
@@ -1357,8 +1369,8 @@ const QUESTIONS = {
         "all of a,b,c",
         "none of a,b,c"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The critical surface of sliding is:",
@@ -1370,7 +1382,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Design of gravity wall aims to:",
@@ -1381,8 +1393,8 @@ const QUESTIONS = {
         "all of the above",
         "none of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Proportioning is:",
@@ -1394,7 +1406,7 @@ const QUESTIONS = {
         "the depth of the retaining wall"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The pre-stressed concrete piles as compared to pre-cast and reinforced concrete piles:",
@@ -1405,8 +1417,8 @@ const QUESTIONS = {
         "are Highly length",
         "All of the mentioned"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Piles are structural members made of:",
@@ -1417,8 +1429,8 @@ const QUESTIONS = {
         "Composite",
         "all of above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Back fill with a sloping surface exerts a total active force Pa on the wall of height H and acts at:",
@@ -1429,8 +1441,8 @@ const QUESTIONS = {
         "H/5 above the base parallel to base",
         "H/6 above the base parallel to base"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "If the desired value of Fs (sliding) is not achieved in retaining wall:",
@@ -1442,7 +1454,7 @@ const QUESTIONS = {
         "all the above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "How do gravity retaining walls achieve stability?",
@@ -1454,7 +1466,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "In what ways may a retaining wall fail?",
@@ -1465,8 +1477,8 @@ const QUESTIONS = {
         "It may go through excessive settlement",
         "all of them"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The purpose of the counterforts in retaining walls is:",
@@ -1478,7 +1490,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Types of sheet pile are commonly used in construction:",
@@ -1489,8 +1501,8 @@ const QUESTIONS = {
         "Aluminum sheet piles are also marketed",
         "all of above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "What are the two phases in the design of a conventional retaining wall?",
@@ -1501,8 +1513,8 @@ const QUESTIONS = {
         "Evaluating landscape integration and potential for height extension",
         "Checking for weight distribution and decoration locations"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "What alteration to the retaining wall structure can be made in addition to elongating the base slab to improve the factors of safety against sliding?",
@@ -1513,8 +1525,8 @@ const QUESTIONS = {
         "Connect the wall to an adjacent more stable structure",
         "Add a counterfort to the retaining wall"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The factor of safety against overturning of retaining walls is most nearly:",
@@ -1525,8 +1537,8 @@ const QUESTIONS = {
         "1",
         "5"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The shear key is provided to:",
@@ -1537,8 +1549,8 @@ const QUESTIONS = {
         "All of the above",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Design of gravity wall aims to:",
@@ -1549,8 +1561,8 @@ const QUESTIONS = {
         "all are correct",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "A minimum factor of safety against sliding is recommended as:",
@@ -1561,8 +1573,8 @@ const QUESTIONS = {
         "3",
         "5"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The shear key is provided to:",
@@ -1573,8 +1585,8 @@ const QUESTIONS = {
         "All of the mentioned",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Which one used as deep groundwater barriers through and under dams:",
@@ -1585,8 +1597,8 @@ const QUESTIONS = {
         "All are correct",
         "None of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The displacement at which friction resistance is fully mobilized is:",
@@ -1598,7 +1610,7 @@ const QUESTIONS = {
         "62 mm"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Retaining wall that is made of reinforced concrete of a thin stem and a base slab is called:",
@@ -1609,8 +1621,8 @@ const QUESTIONS = {
         "Cantilever retaining wall",
         "Gabon retaining wall"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "A retaining wall with H = 7.158 m, Ph = 158.75 kN/m, Summation of MR (The resisting moment) = 1128.86 kN.m/m. The approximate factor of safety against overturning is:",
@@ -1622,7 +1634,7 @@ const QUESTIONS = {
         "1.5"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "To reduce the shear and the bending moments, a thin vertical concrete slabs can be used in the retaining walls, these slabs are called:",
@@ -1633,8 +1645,8 @@ const QUESTIONS = {
         "base",
         "counterforts"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "To design retaining walls properly, an engineer must know the following basic geotechnical parameters:",
@@ -1645,8 +1657,8 @@ const QUESTIONS = {
         "Φ, and C for the soil below the base",
         "Φ, and C for retained soil and soil below the base"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "In Coulomb theory for active lateral pressure: the line of action of the resultant force (P acts in inclined at a distance above the base of the wall):",
@@ -1657,8 +1669,8 @@ const QUESTIONS = {
         "H/6",
         "Undefined"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The soil used for backfill behind the sheet-pile wall is usually:",
@@ -1670,7 +1682,7 @@ const QUESTIONS = {
         "Gravel or silt"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "On designing retaining walls, it is necessary to take care of exerted by soil mass:",
@@ -1681,8 +1693,8 @@ const QUESTIONS = {
         "Effective pressure",
         "Total pressure"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Which of the following piles is used to compact loose granular soil?",
@@ -1693,8 +1705,8 @@ const QUESTIONS = {
         "Tension piles",
         "Sheet piles"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Assuming that σall = 172.5 MN/m² and maximum moment = 103.59 kN.m/m, the minimum size of sheet-pile section necessary is:",
@@ -1706,7 +1718,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The stability of cantilever sheet pile depends mainly on:",
@@ -1718,7 +1730,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "In pile cyclic load test:",
@@ -1730,7 +1742,7 @@ const QUESTIONS = {
         "Pile cyclic load test is not standard test"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The pile hammer is selected based on:",
@@ -1742,7 +1754,7 @@ const QUESTIONS = {
         "the pile weight and its dimension"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Which type of retaining wall depends on its weight and any soil resting on the masonry for stability?",
@@ -1754,7 +1766,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "For deep shear failure analysis of soil underneath a retaining wall, where is the critical cylindrical failure surface most likely located?",
@@ -1765,8 +1777,8 @@ const QUESTIONS = {
         "Below the critical backfill slope angle",
         "At the intersection of the backfill and foundation soil"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "In designing a retaining wall, Rankine's active earth pressure theory for stability checks involves drawing a vertical line through point located at:",
@@ -1777,8 +1789,8 @@ const QUESTIONS = {
         "Bottom of the base slab",
         "Edge of the heel of the base slab"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The necessary amount of outward displacement of the wall is about for cohesive soil backfills, where H is the height of the wall:",
@@ -1789,8 +1801,8 @@ const QUESTIONS = {
         "0.002H to 0.004H",
         "0.0003H to 0.0004H"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The Rankine active earth pressure calculations were based on the assumption that the wall is:",
@@ -1801,8 +1813,8 @@ const QUESTIONS = {
         "frictionless",
         "smooth to very rough"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Counterfort retaining walls are similar to cantilever walls. At regular intervals, however, they have thin vertical concrete slabs known as counterforts that:",
@@ -1813,8 +1825,8 @@ const QUESTIONS = {
         "All of above",
         "none of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The counterfort retaining wall slabs may be spaced at center-to-center distances of:",
@@ -1825,8 +1837,8 @@ const QUESTIONS = {
         "0.3H to 0.7H",
         "0.5 to 0.7H"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Cantilever sheet-pile walls are usually recommended for walls of moderate height or less, measured above the dredge line:",
@@ -1837,8 +1849,8 @@ const QUESTIONS = {
         "8 m",
         "12 m"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "In loose sand at similar depths, what type of pile is likely to have a higher unit skin friction?",
@@ -1849,8 +1861,8 @@ const QUESTIONS = {
         "Jetted pile",
         "Vibro pile"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "What is the purpose of constructing a pile cap over group piles?",
@@ -1861,8 +1873,8 @@ const QUESTIONS = {
         "To minimize the effect of negative skin friction",
         "To measure the settlement of each pile"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "The purpose of used the counterforts in Counterfort retaining walls is to reduce:",
@@ -1874,7 +1886,7 @@ const QUESTIONS = {
         "cost"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Pick up the incorrect statement from the following:",
@@ -1885,8 +1897,8 @@ const QUESTIONS = {
         "All of these",
         "None of these"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "All are the component of retaining wall except?",
@@ -1897,8 +1909,8 @@ const QUESTIONS = {
         "Stem",
         "Base slab"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Design of gravity wall aims to:",
@@ -1909,8 +1921,8 @@ const QUESTIONS = {
         "All are correct",
         "All are not correct"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 3,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "For the design of retaining walls, the minimum factor of safety against sliding is taken as:",
@@ -1921,8 +1933,8 @@ const QUESTIONS = {
         "2.5",
         "2 to 3"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Types of failure in retaining walls are:",
@@ -1933,8 +1945,8 @@ const QUESTIONS = {
         "Deep-seated shear failure",
         "All of the above"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 4,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "For the design of retaining walls, the minimum factor of safety against Bearing Capacity is:",
@@ -1945,8 +1957,8 @@ const QUESTIONS = {
         "4",
         "2 to 3"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 2,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "As compared to the cantilever sheet pile, the required depth of anchored sheet pile below the dredge line is:",
@@ -1957,8 +1969,8 @@ const QUESTIONS = {
         "all are correct",
         "all are wrong"
       ],
-      "ans": 0,
-      "src": "27-5-2024"
+      "ans": 1,
+      "src": "أسئلة دور أول 2024 (27-5)"
     },
     {
       "q": "Precast concrete piles driven in granular soils to achieve:",
@@ -1970,7 +1982,7 @@ const QUESTIONS = {
         "None of the above points"
       ],
       "ans": 0,
-      "src": "27-5-2024"
+      "src": "أسئلة دور أول 2024 (27-5)"
     }
   ],
   "exam4": [
@@ -1984,7 +1996,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The minimum factor of safety for a retaining wall to avoid overturning is:",
@@ -1996,7 +2008,7 @@ const QUESTIONS = {
         "3.0"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "H piles is considered a:",
@@ -2008,7 +2020,7 @@ const QUESTIONS = {
         "none of the options is correct"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The overturning force of a retaining wall is:",
@@ -2020,7 +2032,7 @@ const QUESTIONS = {
         "Weight of soil"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The soil backfill directly above the base of a retaining wall causes:",
@@ -2032,7 +2044,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Sheet piles are used to build a continuous wall to:",
@@ -2044,7 +2056,7 @@ const QUESTIONS = {
         "Trusses"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "In cantilever sheet piles, a special care should be taken to:",
@@ -2056,7 +2068,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Piles are driven into granular soil to achieve proper compaction of soil. These piles are called:",
@@ -2068,7 +2080,7 @@ const QUESTIONS = {
         "not above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The Rankine active earth pressure coefficient for a soil with Ø = 0 is:",
@@ -2080,7 +2092,7 @@ const QUESTIONS = {
         "-2"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Sheet-pile walls:",
@@ -2092,7 +2104,7 @@ const QUESTIONS = {
         "none of the above"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The critical surface of sliding is:",
@@ -2104,7 +2116,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "A retaining wall may fail in:",
@@ -2116,7 +2128,7 @@ const QUESTIONS = {
         "All of above"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "A minimum factor of safety against sliding is recommended as:",
@@ -2128,7 +2140,7 @@ const QUESTIONS = {
         "4"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The pre-stressed concrete piles as compared to pre-cast and reinforced concrete piles:",
@@ -2140,7 +2152,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Design of gravity wall aims to:",
@@ -2152,7 +2164,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "On designing retaining walls it is necessary to take care of ____ exerted by soil mass:",
@@ -2164,7 +2176,7 @@ const QUESTIONS = {
         "point load"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "What is the primary function of a retaining wall?",
@@ -2176,7 +2188,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Wooden sheet piles are used only for:",
@@ -2188,7 +2200,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "A retaining wall 5m high; unit weight of soil =17.6 kN/m³; Ka =0.2444. Calculate the Coulomb's active force per unit length of the wall.",
@@ -2200,7 +2212,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "What is the minimum diameter is specified for Class C timber piles used permanently under the water table?",
@@ -2212,7 +2224,7 @@ const QUESTIONS = {
         "305 mm"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "When the soil conditions near the surface are poor, ............ must be used:",
@@ -2224,7 +2236,7 @@ const QUESTIONS = {
         "Not above"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The relation between Kp and Ka is ____:",
@@ -2236,7 +2248,7 @@ const QUESTIONS = {
         "Kp=1/(1-Ka)"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "What are the common shapes of sheet-pile sections?",
@@ -2248,7 +2260,7 @@ const QUESTIONS = {
         "deep arch and Z"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Cantilever retaining walls is suitable for retaining backfill about __:",
@@ -2260,7 +2272,7 @@ const QUESTIONS = {
         "Any height"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Compared to dry backfill, submerged backfill will exert ---------:",
@@ -2272,7 +2284,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The shear key is provided to ----------:",
@@ -2284,7 +2296,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Cast-in-place piles (or bored piles) is considered to be:",
@@ -2296,7 +2308,7 @@ const QUESTIONS = {
         "All of above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The wall friction of retaining wall:",
@@ -2308,7 +2320,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "When determining the capacity of a group pile in clay, the equation ΣQu=n1 n2 (Qp+Qs) assumes:",
@@ -2320,7 +2332,7 @@ const QUESTIONS = {
         "The Piles in the group subjected to moment in both directions"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The best Sheet-pile walls for retaining a soil cut deeper than 6 m is:",
@@ -2332,7 +2344,7 @@ const QUESTIONS = {
         "Secant pile"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "When the soil is at rest condition, the wall tend to ------------:",
@@ -2344,7 +2356,7 @@ const QUESTIONS = {
         "Have shear failure"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The group efficiency of driven pile group in sand at a close spacing may be:",
@@ -2356,7 +2368,7 @@ const QUESTIONS = {
         "None of above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Vibratory pile is effective with ................:",
@@ -2368,7 +2380,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The Coefficient of passive pressure (Kp) is------------------if the Coefficient of active pressure (Ka) is 0.25:",
@@ -2380,7 +2392,7 @@ const QUESTIONS = {
         "1"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "A cantilever sheet pile derives its stability from:",
@@ -2392,7 +2404,7 @@ const QUESTIONS = {
         "surcharge"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "How is the base-level bending moment of a cantilever retaining wall expressed as a function of its height H?",
@@ -2404,7 +2416,7 @@ const QUESTIONS = {
         "Undefined"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Which one of the following is the correct assumption of Rankine's theory?",
@@ -2416,7 +2428,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The active earth pressure of a soil is proportional to (where Ø is the angle of friction of the soil):",
@@ -2428,7 +2440,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The common types of retaining wall may be classified as follows:",
@@ -2440,7 +2452,7 @@ const QUESTIONS = {
         "All the mentioned"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The movement of soil under the action of load can be prevented by confining the ground by use of:",
@@ -2452,7 +2464,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The intensity of the active pressure for sheet piles at a depth Z = L₁ is:",
@@ -2464,7 +2476,7 @@ const QUESTIONS = {
         "0.5 γ L₁ Kp"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Obtaining the maximum moment (Mmax) per unit length of the wall at shear equal to:",
@@ -2476,7 +2488,7 @@ const QUESTIONS = {
         "The active earth pressure"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Related to Stability of RW, Which of the following does NOT represent a potential failure mode for a retaining wall?",
@@ -2488,7 +2500,7 @@ const QUESTIONS = {
         "Sliding along the base due to insufficient friction"
       ],
       "ans": 1,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "If the desired factor of safety against sliding is not met, which strategy is NOT a suitable solution?",
@@ -2500,7 +2512,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The maximum point resistance will not be mobilized until the tip of the pile has moved about:",
@@ -2512,7 +2524,7 @@ const QUESTIONS = {
         "(10 to 20%) D"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "In contrast to the construction of other types of retaining walls, the building of sheet-pile walls does not usually require ---------------- of the site:",
@@ -2524,7 +2536,7 @@ const QUESTIONS = {
         "dewatering"
       ],
       "ans": 4,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "What is the equation for the ultimate load-carrying capacity of a pile?",
@@ -2536,7 +2548,7 @@ const QUESTIONS = {
         "none of them"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The factor that is responsible for inclination of resultant pressure to the retaining wall is:",
@@ -2548,7 +2560,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "When there is no stiff stratum within a reasonable depth:",
@@ -2560,7 +2572,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "A sheet pile subjected to a concentrated horizontal load at its top is known as:",
@@ -2572,7 +2584,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The point resistance (Qp) of a driven square pile of width 0.4 m in saturated clay that has a cohesion of 100 kN/m² equal to ---------:",
@@ -2584,7 +2596,7 @@ const QUESTIONS = {
         "1224 kN"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The pressure distribution diagram for earth pressure at rest is:",
@@ -2596,7 +2608,7 @@ const QUESTIONS = {
         "square"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "Which statement is correct?",
@@ -2608,7 +2620,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 2,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "The coefficient of earth pressure at rest is represented as ________ expression given by Jaky:",
@@ -2620,7 +2632,7 @@ const QUESTIONS = {
         "ko= tanφ"
       ],
       "ans": 0,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     },
     {
       "q": "What structure behavior implies the action of passive earth pressure?",
@@ -2632,7 +2644,7 @@ const QUESTIONS = {
         "The wall extending vertically"
       ],
       "ans": 3,
-      "src": "2024-06-30"
+      "src": "أسئلة دور ثاني 2024 (30-6)"
     }
   ],
   "exam5": [
@@ -2646,7 +2658,7 @@ const QUESTIONS = {
         "Not above"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The factor of safety in piles generally used ranges from:",
@@ -2658,7 +2670,7 @@ const QUESTIONS = {
         "No one of above"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "In general, the settlement of pile group in saturated clay layer is .......... sandy layer:",
@@ -2670,7 +2682,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Piles are recommended in the following situations:",
@@ -2682,7 +2694,7 @@ const QUESTIONS = {
         "All of above"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "For the equation f=kσ' tanδ', K is ............. for great depth:",
@@ -2694,7 +2706,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "How do gravity retaining walls achieve stability?",
@@ -2706,7 +2718,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The minimum tip diameter for Class B timber piles should not be less than:",
@@ -2718,7 +2730,7 @@ const QUESTIONS = {
         "356 mm"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The actual depth of penetration is ............................of the theoretical depth for cantilever sheet piling penetrating clay:",
@@ -2730,7 +2742,7 @@ const QUESTIONS = {
         "increased by 10%"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Which of the following can be done to improve the factor of safety against sliding if the desired value is not met?",
@@ -2742,7 +2754,7 @@ const QUESTIONS = {
         "Decrease the weight of the retaining wall"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The effect of cohesion on a soil is to ____:",
@@ -2754,7 +2766,7 @@ const QUESTIONS = {
         "reduce active and passive earth pressure intensity"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "A 500 mm diameter and 20 m long concrete pile is driven into a sand where γ=18.5 kN/m³ and Ø=32°. The point loading of pile is ____:",
@@ -2766,7 +2778,7 @@ const QUESTIONS = {
         "3560 kN"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "A retaining wall of height H with a smooth vertical back face supports a backfill inclined at an angle β with the horizontal. The backfill consists of cohesionless soil having an angle of internal friction φ. If the active lateral thrust acting on the wall is Pa, which one of the following statements is TRUE?",
@@ -2778,7 +2790,7 @@ const QUESTIONS = {
         "Pa acts at a height 2H/3 from the base of the wall and at an angle β with the horizontal"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "When structural load is heavy and/or soil having low bearing capacity for considerable depth, the suitable foundation for this situation is:",
@@ -2790,7 +2802,7 @@ const QUESTIONS = {
         "Combined footing"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "While driving a large number of piles in loose sand:",
@@ -2802,7 +2814,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The elastic compression ΔL of a pile can be calculated by the expression based on:",
@@ -2814,7 +2826,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "At similar depth, the unit frictional resistance, f, is - Variation of the unit frictional resistance for different piles:",
@@ -2826,7 +2838,7 @@ const QUESTIONS = {
         "Higher in H piles"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Nowadays, fiber reinforced polymer (FRP) composite piles are widely used for:",
@@ -2838,7 +2850,7 @@ const QUESTIONS = {
         "None of the mention"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Connected or semi-connected ................are often used to build continuous walls for waterfront structures that range from small waterfront pleasure boat launching facilities to large dock facilities:",
@@ -2850,7 +2862,7 @@ const QUESTIONS = {
         "None of the mentioned"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "In prestressed precast piles, During casting of the piles, the cables are ..........pretensioned to about, and concrete is poured around them:",
@@ -2862,7 +2874,7 @@ const QUESTIONS = {
         "None of the mention"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Based on Meyerhof SPT formula, the ratio of frictional resistance of low displacement pile to that of high displacement pile driven in the same soil is:",
@@ -2874,7 +2886,7 @@ const QUESTIONS = {
         "One half"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The precast concrete piles are generally used for a maximum design load of about:",
@@ -2886,7 +2898,7 @@ const QUESTIONS = {
         "100 tones"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The piles that are used for protecting structures from ships and floating object is:",
@@ -2898,7 +2910,7 @@ const QUESTIONS = {
         "Sheet piles"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The minimum factor of safety against sliding for retaining wall would be:",
@@ -2910,7 +2922,7 @@ const QUESTIONS = {
         "3.5"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The most economical type of retaining wall used to retain a soil of height of 10 m is:",
@@ -2922,7 +2934,7 @@ const QUESTIONS = {
         "Cantilever wall or Counterfort wall"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "When the piles are enlarged to provide anchorage against uplift. Such piles are known as:",
@@ -2934,7 +2946,7 @@ const QUESTIONS = {
         "not above"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "These piles may be divided into two broad categories: (a) cased and (b) uncased:",
@@ -2946,7 +2958,7 @@ const QUESTIONS = {
         "not above"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "In friction piles, it is assumed that the entire load is transferred through the pile shaft in the form of friction or adhesion, with Qp is:",
@@ -2958,7 +2970,7 @@ const QUESTIONS = {
         "Both b and c"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Related to Stability of RW, which of the following DOES NOT represent a potential failure mode for a retaining wall?",
@@ -2970,7 +2982,7 @@ const QUESTIONS = {
         "Sliding along the base due to insufficient friction"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "In designing a retaining wall, Rankine's active earth pressure theory for stability checks involves drawing a vertical line through point located at...................:",
@@ -2982,7 +2994,7 @@ const QUESTIONS = {
         "Edge of the heel of the base slab"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Deep shear failure in retaining walls can occur along a cylindrical surface as a result of the existence of a weak layer of soil underneath the wall within a depth of about ---- times the width of the base slab of the retaining wall:",
@@ -2994,7 +3006,7 @@ const QUESTIONS = {
         "4.0"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What method do many structural engineers often utilize to obtain group efficiency for friction piles, especially in sand?",
@@ -3006,7 +3018,7 @@ const QUESTIONS = {
         "Finite element analysis"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The purpose of used the counterforts in Counterfort retaining walls is to reduce:",
@@ -3018,7 +3030,7 @@ const QUESTIONS = {
         "cost"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The efficiency of pile group depends upon:",
@@ -3030,7 +3042,7 @@ const QUESTIONS = {
         "length of the pile"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "A uniform load of 50 kN/m² on a soil with unit weight 20 kN/m³ carried by a retaining wall is considered as an equivalent to an extra height of soil equal to:",
@@ -3042,7 +3054,7 @@ const QUESTIONS = {
         "2.75 m"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "During the active state of plastic equilibrium, the retaining wall moves:",
@@ -3054,7 +3066,7 @@ const QUESTIONS = {
         "down ward"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The coefficient of earth pressure when the soil is at equilibrium:",
@@ -3066,7 +3078,7 @@ const QUESTIONS = {
         "σh+σv"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "In point load piles:",
@@ -3078,7 +3090,7 @@ const QUESTIONS = {
         "none of the above"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Ultimate bearing capacity of pile group increase when:",
@@ -3090,7 +3102,7 @@ const QUESTIONS = {
         "reducing soil cohesion"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "When selecting the type of retaining wall, the following factor is most important (select the INCORRECT answer):",
@@ -3102,7 +3114,7 @@ const QUESTIONS = {
         "The weather conditions at the site"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "H-section piles are usually preferred on I-section beam:",
@@ -3114,7 +3126,7 @@ const QUESTIONS = {
         "none of the above"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What is the definition of a retaining wall?",
@@ -3126,7 +3138,7 @@ const QUESTIONS = {
         "None of the above is correct"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What is the range of the factor ξ used in the elastic settlement equation for piles?",
@@ -3138,7 +3150,7 @@ const QUESTIONS = {
         "None of the above is correct"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The purpose of using a key to the base slab in retaining walls is:",
@@ -3150,7 +3162,7 @@ const QUESTIONS = {
         "None of the above is correct"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The load test procedure requires the application of step loads on the piles and the measurement of settlement and is called:",
@@ -3162,7 +3174,7 @@ const QUESTIONS = {
         "No one of these"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The downward drag force exerted on a pile by the soil surrounding it is known as:",
@@ -3174,7 +3186,7 @@ const QUESTIONS = {
         "Compression force"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The wooden sheet piles usually used for:",
@@ -3186,7 +3198,7 @@ const QUESTIONS = {
         "permanent structures below the water table"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The typical thicknesses of steel sheet piles in the United States are:",
@@ -3198,7 +3210,7 @@ const QUESTIONS = {
         "10 to 13 mm"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The assumptions made when using the Rankine earth pressure theory for stability checks of a cantilever wall are:",
@@ -3210,7 +3222,7 @@ const QUESTIONS = {
         "Coulomb passive condition along a horizontal plane through the base"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What happens at the point of rotation in a cantilever sheet pile wall?",
@@ -3222,7 +3234,7 @@ const QUESTIONS = {
         "The sheet pile experiences zero lateral pressure"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What distinguishes passive earth pressure from active earth pressure?",
@@ -3234,7 +3246,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 2,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The downward drag acting on a pile due to the movement of the surrounding soil is called:",
@@ -3246,7 +3258,7 @@ const QUESTIONS = {
         "Tension force"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What type of pile is designed primarily to transfer load through skin friction?",
@@ -3258,7 +3270,7 @@ const QUESTIONS = {
         "Pile caps"
       ],
       "ans": 1,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "Steel, and precast concrete piles are generally:",
@@ -3270,7 +3282,7 @@ const QUESTIONS = {
         "All of above"
       ],
       "ans": 3,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "What is the at-rest earth pressure?",
@@ -3282,7 +3294,7 @@ const QUESTIONS = {
         "The lateral earth pressure on a retaining wall when the wall is at rest"
       ],
       "ans": 4,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     },
     {
       "q": "The coefficient of active earth pressure is ______ than the coefficient of passive pressure:",
@@ -3294,7 +3306,7 @@ const QUESTIONS = {
         "more"
       ],
       "ans": 0,
-      "src": "2025-09-10"
+      "src": "أسئلة دور ثاني 2025 (10-9)"
     }
   ],
   "exam6": [
@@ -3308,7 +3320,7 @@ const QUESTIONS = {
         "Expansive soil"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The skin friction is fully mobilized when the pile settlement is equal to",
@@ -3320,7 +3332,7 @@ const QUESTIONS = {
         "10-15 mm"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The value of lambda (λ) in the determination of skin friction of piles depends on",
@@ -3332,7 +3344,7 @@ const QUESTIONS = {
         "Method of construction of pile"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The pile cap would help with transformation of the load of the structure to the soil if the cap is in contact with the ground",
@@ -3344,7 +3356,7 @@ const QUESTIONS = {
         "Statement only valid for cast in-situ piles"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Piles can be divided into the following categories with the general descriptions for conventional",
@@ -3356,7 +3368,7 @@ const QUESTIONS = {
         "steel, concrete, timber, and composite piles"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "When necessary, steel piles are spliced by",
@@ -3368,7 +3380,7 @@ const QUESTIONS = {
         "Other than that"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Piles are structural members made of",
@@ -3380,7 +3392,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "An advantage of preferring bored piles is",
@@ -3392,7 +3404,7 @@ const QUESTIONS = {
         "avoiding noise"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The limiting value of qL = 0.5 pa Nq* tanφ', the effective angle is for:",
@@ -3404,7 +3416,7 @@ const QUESTIONS = {
         "all of above"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In general, the settlement of pile group in saturated clay layer is ……… sandy layer",
@@ -3416,7 +3428,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "During the casting of the precast piles, the cables are pretensioned to about",
@@ -3428,7 +3440,7 @@ const QUESTIONS = {
         "950 –1350 MN/m²"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The piles or piers supporting the tower legs must be designed for",
@@ -3440,7 +3452,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The minimum tip diameter for Class B timber piles should not be less than",
@@ -3452,7 +3464,7 @@ const QUESTIONS = {
         "356 mm"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What is negative skin friction?",
@@ -3464,7 +3476,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The maximum load which can be carried by a pile is defined as its",
@@ -3476,7 +3488,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What minimum butt diameter is specified for Class C timber piles used permanently under the water table?",
@@ -3488,7 +3500,7 @@ const QUESTIONS = {
         "305 mm"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Which type of composite piles are increasingly used for waterfront structures?",
@@ -3500,7 +3512,7 @@ const QUESTIONS = {
         "Fiber reinforced polymer composite piles"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Which type of piles are referred to as no displacement piles?",
@@ -3512,7 +3524,7 @@ const QUESTIONS = {
         "Cast-in-place (or bored) piles"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Underreamed piles are piles with enlargement bottom to increase the pile resistance against ……",
@@ -3524,7 +3536,7 @@ const QUESTIONS = {
         "Sinking"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Why are steel H-section piles preferred over I-section beams?",
@@ -3536,7 +3548,7 @@ const QUESTIONS = {
         "H-section piles have equal web and flange thicknesses"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "A concrete bored pile of (750mm) diameter can reach its maximum point resistance when its tip settlement reach ……",
@@ -3548,7 +3560,7 @@ const QUESTIONS = {
         "10 mm"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The technique of the pile load test in which the load is applied in increments equal to 25% of the design load until reaching the maximum test load, is called ……",
@@ -3560,7 +3572,7 @@ const QUESTIONS = {
         "Constant-movement increment test"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The downward drag force exerted on a pile by the soil surrounding it until reaching its maximum point resistance is called ……",
@@ -3572,7 +3584,7 @@ const QUESTIONS = {
         "None of the mentioned"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The negative skin friction on a pile develops when",
@@ -3584,7 +3596,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What is the best hammer type for precast piles to be driven near a hospital?",
@@ -3596,7 +3608,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The downward drag force acting on a pile due to the movement of the surrounding is called ……",
@@ -3608,7 +3620,7 @@ const QUESTIONS = {
         "None of the mentioned"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Negative skin friction on piles",
@@ -3620,7 +3632,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The pile load test should be performed on",
@@ -3632,7 +3644,7 @@ const QUESTIONS = {
         "All of the mentioned"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In standard penetration test (SPT) for soil, the SPT number is:",
@@ -3644,7 +3656,7 @@ const QUESTIONS = {
         "None of the above"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What parameter plays a pivotal role in determining the efficiency of a pile group?",
@@ -3656,7 +3668,7 @@ const QUESTIONS = {
         "Load-carrying capacity of individual piles."
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Usually for a group piles, piles caps are provided for which of the following reasons",
@@ -3668,7 +3680,7 @@ const QUESTIONS = {
         "decrease the load bearing capacity of each pile"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The factor of safety of uplift pressure",
@@ -3680,7 +3692,7 @@ const QUESTIONS = {
         "The more the better"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What factor determines the efficiency of a pile group?",
@@ -3692,7 +3704,7 @@ const QUESTIONS = {
         "Depth of embedment"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "How do the piles within a group act according to the simplified analysis depending on their spacing within the group?",
@@ -3704,7 +3716,7 @@ const QUESTIONS = {
         "According to their depth in the soil"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What is the primary factor influencing elastic settlement of piles and pile groups?",
@@ -3716,7 +3728,7 @@ const QUESTIONS = {
         "Pile spacing"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Which of the following factors does NOT have a direct effect on the elastic settlement of a pile?",
@@ -3728,7 +3740,7 @@ const QUESTIONS = {
         "Magnitude of the applied axial load"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Tension piles may be used beneath buildings to resist uplift from",
@@ -3740,7 +3752,7 @@ const QUESTIONS = {
         "no one of the above"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "A pile which obtains most of its load carrying capacity at the base of pile is known as",
@@ -3752,7 +3764,7 @@ const QUESTIONS = {
         "None of these"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Piles must be driven to a certain depth where the expansive soil are present to",
@@ -3764,7 +3776,7 @@ const QUESTIONS = {
         "None of the above points"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "When piles is driven into a thick deposit of soil the load applied to the pile head is transferred to the soil through",
@@ -3776,7 +3788,7 @@ const QUESTIONS = {
         "None of the above points"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The minimum center-to-center pile spacing, d in the group piles is:",
@@ -3788,7 +3800,7 @@ const QUESTIONS = {
         "5.5 D"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In which conditions do steel piles require additional thickness to offset corrosion effects?",
@@ -3800,7 +3812,7 @@ const QUESTIONS = {
         "In swamps and peats"
       ],
       "ans": 4,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "If the entire load is transferred to the soil through the pile tip, it is considered to be:",
@@ -3812,7 +3824,7 @@ const QUESTIONS = {
         "All of the above"
       ],
       "ans": 0,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "When there is no bedrock or stiff stratum at relatively short depth, the pile is called:",
@@ -3824,7 +3836,7 @@ const QUESTIONS = {
         "Compaction pile"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Soils with a pH greater than ……… are not as corrosive to steel piles.",
@@ -3836,7 +3848,7 @@ const QUESTIONS = {
         "8"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The vibration caused during pile driving helps densify the soil around the pile. The zone of sand densification may be as much as:",
@@ -3848,7 +3860,7 @@ const QUESTIONS = {
         "2.0 times the pile diameter, in the sand surrounding the pile."
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "The maximum point resistance of the driven pile (30 cm x 30 cm) will not be mobilized until the tip of the pile has moved about ……………….",
@@ -3860,7 +3872,7 @@ const QUESTIONS = {
         "less than 3 mm"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Which type of pile load test applies a continuously increasing load to maintain a constant rate of penetration?",
@@ -3872,7 +3884,7 @@ const QUESTIONS = {
         "Constant load test"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "What is the effect of negative skin friction on piles?",
@@ -3884,7 +3896,7 @@ const QUESTIONS = {
         "Increase end bearing capacity"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "To estimate the critical depth conservatively, it would be",
@@ -3896,7 +3908,7 @@ const QUESTIONS = {
         "none of the mentioned"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In clayey soils, the resistance to applied load is caused by:",
@@ -3908,7 +3920,7 @@ const QUESTIONS = {
         "adhesion only"
       ],
       "ans": 3,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "If a group efficiency η = 0.75 and the sum of individual pile capacities is 4000 kN, the group ultimate capacity is:",
@@ -3920,7 +3932,7 @@ const QUESTIONS = {
         "5333 kN"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In a friction pile installed in uniform sand, increasing pile diameter while keeping length constant will primarily increase:",
@@ -3932,7 +3944,7 @@ const QUESTIONS = {
         "Negative skin friction"
       ],
       "ans": 2,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "In uplift (tension) piles, resistance is mainly provided by:",
@@ -3944,7 +3956,7 @@ const QUESTIONS = {
         "Group efficiency"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     },
     {
       "q": "Factory-applied epoxy coatings are mainly used on steel piles to:",
@@ -3956,7 +3968,7 @@ const QUESTIONS = {
         "Improve appearance"
       ],
       "ans": 1,
-      "src": "دور اول 2026"
+      "src": "أسئلة دور أول 2026 (2-6)"
     }
   ]
 };
